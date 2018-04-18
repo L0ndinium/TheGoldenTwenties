@@ -2,7 +2,7 @@ state=
 {
 	id=102
 	name="STATE_102"
-	manpower = 1144300
+	manpower = 1044300
 	
 	state_category = large_town
 	
@@ -10,7 +10,7 @@ state=
 	{
 		owner = YUG
 		buildings = {
-			infrastructure = 6
+			infrastructure = 4
 		}
 		victory_points = {
 			9627 3 

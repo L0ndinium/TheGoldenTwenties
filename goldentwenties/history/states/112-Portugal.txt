@@ -2,9 +2,9 @@
 state={
 	id=112
 	name="STATE_112"
-	manpower = 2369100
+	manpower = 2169100
 	resources={
-		tungsten=48 # was: 76
+		tungsten=24
 	}
 	
 	state_category = city
@@ -15,12 +15,12 @@ state={
 			11805 30.0 
 		}
 		buildings = {
-			infrastructure = 6
-			arms_factory = 2
-			industrial_complex = 4
-			air_base = 5
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 2
 			11805 = {
-				naval_base = 8
+				naval_base = 3
 			}
 		}
 		add_core_of = POR

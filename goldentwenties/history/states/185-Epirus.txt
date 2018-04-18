@@ -2,23 +2,20 @@
 state={
 	id=185
 	name="STATE_185"
-	manpower = 760900
+	manpower = 730900
 	
 	state_category = town
 	
 	resources={
-		chromium=14 # was: 20
-		steel = 14 # was: 20
+		chromium=8
+		steel = 8
 	}
 
 	history={
 		owner = GRE
 		buildings = {
-			infrastructure = 4
-			air_base = 3
-			9805 = {
-				naval_base = 1
-			}
+			infrastructure = 3
+			air_base = 1
 		}
 		add_core_of = GRE
 	}

@@ -2,19 +2,19 @@
 state={
 	id=136
 	name="STATE_136"
-	manpower = 745466
+	manpower = 685466
 	
 	state_category = town
 	resources={
-		tungsten=4 # was: 6
-		aluminium=3 # was: 4
+		tungsten=2
+		aluminium=2
 	}
 
 	history={
 		owner = ENG
 		buildings = {
-			infrastructure = 6
-			dockyard = 2
+			infrastructure = 4
+			dockyard = 1
 		}
 		add_core_of = ENG
 	}

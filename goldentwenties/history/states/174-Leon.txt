@@ -2,7 +2,7 @@
 state={
 	id=174
 	name="STATE_174"
-	manpower = 1566041
+	manpower = 1466041
 	
 	state_category = large_town
 
@@ -12,11 +12,10 @@ state={
 			11707 1 
 		}
 		buildings = {
-			infrastructure = 6
-			arms_factory = 1
+			infrastructure = 4
 			industrial_complex = 1
 			11707 = {
-				naval_base = 2
+				naval_base = 1
 			}
 		}
 		add_core_of = SPR

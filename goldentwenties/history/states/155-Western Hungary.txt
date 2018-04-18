@@ -2,11 +2,11 @@
 state={
 	id=155
 	name="STATE_155" # Transdanubia
-	manpower = 2197605
+	manpower = 1997605
 	
 	state_category = city
 	resources={
-		oil = 1 # was: 1
+		oil = 2
 	}
 	history={
 		owner = HUN
@@ -14,10 +14,10 @@ state={
 			11610 5 
 		}
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 3
+			infrastructure = 4
+			industrial_complex = 1
 			arms_factory = 1
-			air_base = 3
+			air_base = 1
 		}
 		add_core_of = HUN
 	}
