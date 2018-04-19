@@ -3,5 +3,5 @@ path="mod/goldentwenties/"
 tags={
 	"Historical"
 }
-supported_version="1.5.2"
+supported_version="1.5.3"
 picture="tgt.jpg"

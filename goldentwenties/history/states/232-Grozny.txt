@@ -7,13 +7,13 @@ state={
 	state_category = rural
 	
 	resources={
-		oil=19 # was: 26
+		oil=12
 	}
 
 	history={
 		owner = SOV
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 		}
 		victory_points = {
 			3672 5 
