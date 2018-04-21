@@ -1,0 +1,24 @@
+ideas = {
+	country = {
+		GER_idea_treaty_of_versailles = {
+			allowed = {
+				original_tag = GER
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_pp_unity_bonus
+			
+			modifier = {
+				production_speed_arms_factory_factor = -1
+				send_volunteers_tension = 1
+				generate_wargoal_tension = 1
+				guarantee_tension = 1
+				join_faction_tension = 1
+				conscription_factor = -0.5
+				industrial_capacity_dockyard = -0.5
+				industrial_capacity_factory = -0.25
+			}
+		}
+	}
+}

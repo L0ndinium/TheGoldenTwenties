@@ -12,22 +12,19 @@ ideas = {
 		
 			modifier = {
 				consumer_goods_factor = 0.50
-				production_speed_industrial_complex_factor = -0.5
-				production_speed_arms_factory_factor = -0.5
+				production_speed_industrial_complex_factor = -0.75
+				production_speed_arms_factory_factor = -0.75
 				conversion_cost_civ_to_mil_factor = 0.5
 				conversion_cost_mil_to_civ_factor = 0.5
 				generate_wargoal_tension = 1.00
-				join_faction_tension = 0.20
+				join_faction_tension = 0.25
 				lend_lease_tension = 0.50
-				send_volunteers_tension = 0.20
+				send_volunteers_tension = 0.25
 				guarantee_tension = 0.75
 			}
 			
 			allowed_to_remove = {
-				OR = {
-					has_war_support > 0.5
-					has_war = yes
-				}
+				always = no
 			}
 			
 			cancel_if_invalid = no
@@ -43,21 +40,19 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.4
-				production_speed_industrial_complex_factor = -0.4
-				production_speed_arms_factory_factor = -0.4
-				conversion_cost_civ_to_mil_factor= 0.4
-				conversion_cost_mil_to_civ_factor = 0.4
+				consumer_goods_factor = 0.50
+				production_speed_industrial_complex_factor = -0.5
+				production_speed_arms_factory_factor = -0.5
+				conversion_cost_civ_to_mil_factor= 0.5
+				conversion_cost_mil_to_civ_factor = 0.5
 				generate_wargoal_tension = 1.00
-				join_faction_tension = 0.20
-				send_volunteers_tension = 0.20
+				join_faction_tension = 0.25
+				send_volunteers_tension = 0.25
 				guarantee_tension = 0.5
 			}
+			
 			allowed_to_remove = {
-				OR = {
-					has_war_support > 0.75
-					has_war = yes					
-				}
+				always = no
 			}
 			
 			cancel_if_invalid = no
@@ -70,11 +65,10 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.35
-				production_speed_industrial_complex_factor = -0.3
-				production_speed_arms_factory_factor = -0.3
-				conversion_cost_civ_to_mil_factor= 0.3
-				conversion_cost_mil_to_civ_factor = 0.3
+				consumer_goods_factor = 0.4
+				production_speed_industrial_complex_factor = 0.5
+				production_speed_arms_factory_factor = -0.5
+				conversion_cost_civ_to_mil_factor = 0.5
 			}
 			
 			default = yes
@@ -92,9 +86,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.3
-				production_speed_industrial_complex_factor = -0.1
-				production_speed_arms_factory_factor = -0.1
+				consumer_goods_factor = 0.35
+				production_speed_industrial_complex_factor = 0.35
+				production_speed_arms_factory_factor = -0.35
 			}
 			
 			cancel_if_invalid = no
@@ -120,10 +114,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.25
-				production_speed_arms_factory_factor = 0.1
-				conversion_cost_civ_to_mil_factor= -0.1
-				conversion_cost_mil_to_civ_factor = -0.1
+				consumer_goods_factor = 0.3
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = -0.1
 			}
 			
 			cancel_if_invalid = no
@@ -150,10 +143,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.2
-				production_speed_arms_factory_factor = 0.2
-				conversion_cost_civ_to_mil_factor= -0.2
-				conversion_cost_mil_to_civ_factor = -0.2
+				consumer_goods_factor = 0.25
+				production_speed_industrial_complex_factor = -0.1
+				production_speed_arms_factory_factor = 0.1
 			}
 			
 			cancel_if_invalid = no
@@ -213,11 +205,10 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.10
-				conscription = -0.03
-				production_speed_arms_factory_factor = 0.3
-				conversion_cost_civ_to_mil_factor= -0.3
-				conversion_cost_mil_to_civ_factor = -0.3
+				consumer_goods_factor = 0.2
+				research_time_factor = 0.2
+				production_speed_industrial_complex_factor = -0.25
+				production_speed_arms_factory_factor = 0.25
 			}
 			
 			cancel_if_invalid = no
@@ -233,11 +224,10 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				min_export = 0.8
+				min_export = 0.75
 				industrial_capacity_factory = 0.15
 				industrial_capacity_dockyard = 0.15
 				production_speed_buildings_factor = 0.15
-				research_time_factor = -0.10
 			}
 			
 			cancel_if_invalid = no
@@ -253,7 +243,6 @@ ideas = {
 				industrial_capacity_factory = 0.1
 				industrial_capacity_dockyard = 0.1
 				production_speed_buildings_factor = 0.1
-				research_time_factor = -0.05
 			}
 			
 			default = yes
@@ -275,7 +264,6 @@ ideas = {
 				industrial_capacity_factory = 0.05
 				industrial_capacity_dockyard = 0.05
 				production_speed_buildings_factor = 0.05
-				research_time_factor = -0.01
 			}
 			
 			cancel_if_invalid = no

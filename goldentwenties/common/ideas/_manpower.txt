@@ -14,7 +14,7 @@ ideas = {
 			}
 
 			modifier = {
-				conscription = 0.01
+				conscription = 0.005
 			}
 			
 			cancel_if_invalid = no
@@ -41,7 +41,7 @@ ideas = {
 			}
 
 			modifier = {
-				conscription = 0.015
+				conscription = 0.01
 			}
 			
 			default = yes
@@ -62,7 +62,12 @@ ideas = {
 			}
 
 			modifier = {
-				conscription = 0.025
+				conscription = 0.02
+				consumer_goods_factor = 0.02
+				industrial_capacity_factory = -0.02
+				industrial_capacity_dockyard = -0.02
+				training_time_army_factor = 0.05
+				army_org_Factor = -0.02
 			}
 
 			ai_will_do = {
@@ -81,6 +86,8 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.2
+				NOT = { has_idea = undisturbed_isolation }
+				NOT = { has_idea = isolation }
 			}
 
 			ai_will_do = {
@@ -104,8 +111,12 @@ ideas = {
 			level = 4
 			
 			modifier = {
-				conscription = 0.05
-				training_time_factor = 0.1
+				conscription = 0.04
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				training_time_army_factor = 0.1
+				army_org_Factor = -0.05
 			}
 			
 			cancel_if_invalid = no
@@ -116,6 +127,8 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.6
+				NOT = { has_idea = undisturbed_isolation }
+				NOT = { has_idea = isolation }
 			}
 
 			ai_will_do = {
@@ -150,11 +163,12 @@ ideas = {
 			level = 3
 
 			modifier = {
-				conscription = 0.1
-				industrial_capacity_factory = -0.1
-				industrial_capacity_dockyard = -0.1
-				production_speed_buildings_factor = -0.1
-				training_time_factor = 0.2
+				conscription = 0.08
+				consumer_goods_factor = 0.08
+				industrial_capacity_factory = -0.08
+				industrial_capacity_dockyard = -0.08
+				training_time_army_factor = 0.15
+				army_org_Factor = -0.08
 			}
 			
 			cancel_if_invalid = no
@@ -165,6 +179,8 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.7
+				NOT = { has_idea = undisturbed_isolation }
+				NOT = { has_idea = isolation }
 			}
 
 			ai_will_do = {
@@ -199,11 +215,12 @@ ideas = {
 			level = 2
 			
 			modifier = {
-				conscription = 0.2
-				industrial_capacity_factory = -0.3
-				industrial_capacity_dockyard = -0.3
-				production_speed_buildings_factor = -0.3
-				training_time_factor = 0.3
+				conscription = 0.12
+				consumer_goods_factor = 0.08
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				training_time_army_factor = 0.2
+				army_org_Factor = -0.1
 			}
 			
 			cancel_if_invalid = no
@@ -214,6 +231,8 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.85
+				NOT = { has_idea = undisturbed_isolation }
+				NOT = { has_idea = isolation }
 			}
 
 			ai_will_do = {
@@ -240,11 +259,12 @@ ideas = {
 			level = 1
 
 			modifier = {
-				conscription = 0.25
-				industrial_capacity_factory = -0.4
-				industrial_capacity_dockyard = -0.4
-				production_speed_buildings_factor = -0.4
-				training_time_factor = 0.5
+				conscription = 0.2
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+				training_time_army_factor = 0.25
+				army_org_Factor = -0.15
 			}
 			
 			cancel_if_invalid = no
