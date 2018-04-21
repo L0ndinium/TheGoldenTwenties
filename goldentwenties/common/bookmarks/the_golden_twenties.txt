@@ -17,6 +17,72 @@ bookmarks = {
 				#
 			}
 		}
+		
+		"FRA"={
+			history = "FRA_GOLDEN_TWENTIES_DESC"
+			ideology = democratic
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		
+		"ENG"={
+			history = "ENG_GOLDEN_TWENTIES_DESC"
+			ideology = democratic
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		
+		"USA"={
+			history = "USA_GOLDEN_TWENTIES_DESC"
+			ideology = democratic
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		
+		"ITA"={
+			history = "ITA_GOLDEN_TWENTIES_DESC"
+			ideology = neutrality
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		
+		"SOV"={
+			history = "SOV_GOLDEN_TWENTIES_DESC"
+			ideology = communism
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		
+		"JAP"={
+			history = "JAP_GOLDEN_TWENTIES_DESC"
+			ideology = neutrality
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
 
 		"---"={
 			history = "OTHER_GOLDEN_TWENTIES_DESC"

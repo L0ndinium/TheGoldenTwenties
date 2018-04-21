@@ -531,3 +531,13 @@ D15 = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 252 182 112 }
 }
+
+SAR = {
+	color = rgb { 120  160  150 }
+	color_ui = rgb { 120  160  150 }
+}
+
+DNZ = {
+	color = rgb { 150  230  210 }
+	color_ui = rgb { 150  230  210 }
+}

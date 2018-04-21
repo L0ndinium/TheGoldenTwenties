@@ -1,0 +1,25 @@
+state={
+	id=764
+	name="STATE_764"
+	manpower = 221857
+	
+	state_category = city
+	history={
+		owner = DNZ
+		victory_points = {
+			362 10
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			362 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = DNZ
+	}
+
+	provinces={
+		362
+	}
+}
