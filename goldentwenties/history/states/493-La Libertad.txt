@@ -4,7 +4,7 @@ state={
 	name="STATE_493"
 	manpower = 2826781
 	resources={
-		oil=15 # was: 20
+		oil=12
 	}
 	
 	state_category = town
@@ -12,11 +12,11 @@ state={
 	history={
 		owner = COL
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-			air_base = 4
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
 			12790 = {
-				naval_base = 5
+				naval_base = 2
 			}
 			8056 = {
 				naval_base = 1

@@ -5,14 +5,14 @@ state={
 	manpower = 680844
 	state_category = rural
 	resources={
-		steel=17 # was: 24
-		oil=7 # was: 10
+		steel=12
+		oil=6
 	}
 
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			industrial_complex = 1
 		}
 		add_core_of = USA

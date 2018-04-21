@@ -4,7 +4,7 @@ state={
 	name="STATE_408"
 	manpower = 841465
 	resources={
-		chromium=20 # was: 28
+		chromium=12
 	}
 	
 	state_category = town
@@ -15,12 +15,11 @@ state={
 			957 15
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			dockyard = 1
-			air_base = 5
+			air_base = 2
 			957 = {
-				naval_base = 8
-				coastal_bunker = 3
+				naval_base = 4
 			}
 		}
 		add_core_of = SOV

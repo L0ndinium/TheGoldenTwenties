@@ -8,19 +8,19 @@ state={
 	state_category = metropolis
 	
 	resources={
-		oil=320 # was: 580
-		aluminium=50 # was: 96
+		oil=96
+		aluminium=30
 	}
 
 
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 9
-			air_base = 3
+			infrastructure = 4
+			industrial_complex = 4
+			air_base = 1
 			10337 = {
-				naval_base = 3
+				naval_base = 2
 			}
 			6785 = {
 				naval_base = 1

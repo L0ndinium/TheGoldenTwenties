@@ -4,8 +4,8 @@ state={
 	name="STATE_330"
 	manpower = 772000
 	resources={
-		steel=2 # was: 2
-		chromium=3 # was: 3
+		steel=2
+		chromium=2
 	}
 	
 	state_category = town
@@ -19,9 +19,9 @@ state={
 			7799 1
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			arms_factory = 1
-			industrial_complex = 3
+			industrial_complex = 1
 			air_base = 1
 		}
 		add_core_of = MON

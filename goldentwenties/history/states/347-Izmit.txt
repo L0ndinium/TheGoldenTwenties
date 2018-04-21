@@ -4,7 +4,7 @@ state={
 	name="STATE_347"
 	manpower = 807660
 	resources={
-		chromium=19 # was: 26
+		chromium=8
 	}
 	
 	state_category = rural
@@ -15,9 +15,9 @@ state={
 			890 1 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			904 = {
-				naval_base = 2
+				naval_base = 1
 			}
 		}
 		add_core_of = TUR

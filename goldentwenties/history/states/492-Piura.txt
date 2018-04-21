@@ -2,7 +2,7 @@ state={
 	id=492
 	name="STATE_492"
 	resources={
-		tungsten=2 # was: 2.000
+		tungsten=4
 	}
 	
 	state_category = rural
@@ -10,10 +10,8 @@ state={
 	history={
 		owner = PRU
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 1
-			air_base = 1
-
 		}
 		add_core_of = PRU
 		victory_points = {

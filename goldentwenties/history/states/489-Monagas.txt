@@ -7,16 +7,16 @@ state={
 	state_category = town
 	
 	resources={
-		oil=70 # was: 126
+		oil=60
 	}
 
 	history={
 		owner = VEN
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
+			infrastructure = 2
+			industrial_complex = 1
 			1944 = {
-				naval_base = 5
+				naval_base = 2
 			}
 		}
 		add_core_of = VEN

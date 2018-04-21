@@ -9,19 +9,16 @@ state={
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 3
-			air_base = 8
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 4
 			1572 = {
-				naval_base = 2
+				naval_base = 1
 			}
 			1843 = {
-				naval_base = 5
-			}
-			7388 = {
 				naval_base = 3
 			}
-			10352 = {
+			7388 = {
 				naval_base = 1
 			}
 		}

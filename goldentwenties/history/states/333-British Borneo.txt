@@ -4,8 +4,8 @@ state=
 	name="STATE_333"
 	manpower = 889800
 	resources={
-		rubber=40 # was: 72
-		oil=12 # was: 18
+		rubber=32
+		oil=6
 	}
 	
 	state_category = rural
@@ -17,12 +17,12 @@ state=
 			7371 1
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			1208 = {
 				naval_base = 1
 			}
 			7371 = {
-				naval_base = 2
+				naval_base = 1
 			}
 		}
 		add_core_of = MAL

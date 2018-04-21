@@ -13,13 +13,13 @@ state={
 			1149 10 
 		}
 		buildings = {
-			infrastructure = 3
-			air_base = 6
+			infrastructure = 2
+			air_base = 3
 			1149 = {
-				naval_base = 5
+				naval_base = 2
 			}
 		}
-		add_core_of = LBA
+		
 	}
 
 	provinces={

@@ -4,7 +4,7 @@ state={
 	name="STATE_342" # Antalya
 	manpower = 362689
 	resources={
-		chromium=35 # was: 46
+		chromium=16
 	}
 	state_category = rural
 
@@ -14,10 +14,9 @@ state={
 			1005 1 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 2
 			1005 = {
-				naval_base = 4
+				naval_base = 2
 			}
 		}
 		add_core_of = TUR

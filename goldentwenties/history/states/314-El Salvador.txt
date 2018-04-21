@@ -4,7 +4,7 @@ state=
 	name="STATE_314"
 	manpower = 1437611
 	resources={
-		chromium=1 # was: 1
+		chromium=4
 	}
 	
 	state_category = town
@@ -13,9 +13,9 @@ state=
 	{
 		owner = ELS
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 2 
+			industrial_complex = 1
 			air_base = 1
 			12823 = {
 				naval_base = 1

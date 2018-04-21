@@ -9,9 +9,9 @@ state={
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 3
-			air_base = 2
+			infrastructure = 4
+			industrial_complex = 2
+			air_base = 1
 			11975 = {
 				naval_base = 1
 			}
@@ -20,13 +20,6 @@ state={
 		victory_points = {
 			12384 10 
 		}
-
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-			}
-		}
-
 	}
 
 	provinces={
