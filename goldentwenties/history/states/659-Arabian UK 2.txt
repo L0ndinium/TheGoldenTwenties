@@ -12,10 +12,10 @@ state={
 			5074 1 
 		}
 		buildings = {
-			infrastructure = 3
-			air_base = 4
+			infrastructure = 2
+			air_base = 1
 			5074 = {
-				naval_base = 3
+				naval_base = 2
 			}
 			8000 = {
 				naval_base = 1

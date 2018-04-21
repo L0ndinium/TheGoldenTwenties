@@ -13,8 +13,6 @@ state={
 			infrastructure = 0
 		}
 
-		
-
 	}
 
 	provinces={

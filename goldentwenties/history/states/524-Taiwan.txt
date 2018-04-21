@@ -8,14 +8,12 @@ state=
 	history=
 	{
 		owner = JAP
-		add_core_of = CHI
-		add_core_of = PRC
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
 			arms_factory = 1
-			air_base = 6
+			air_base = 3
 			12068 = {
-				naval_base = 10
+				naval_base = 4
 			}
 		}
 		victory_points = {

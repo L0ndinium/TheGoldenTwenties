@@ -5,13 +5,13 @@ state={
 	state_category = pastoral
 
 	resources={
-		rubber=5 # was: 6.000
+		rubber=4
 	}
 
 	history={
 		owner = BEL
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 
 		}
 		

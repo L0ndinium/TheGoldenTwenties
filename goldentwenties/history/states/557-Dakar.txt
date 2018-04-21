@@ -2,7 +2,7 @@
 state={
 	id=557
 	name="STATE_557" # Mauritania
-	manpower = 429200
+	manpower = 329200
 	
 	state_category = wasteland
 	impassable = yes

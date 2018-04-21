@@ -7,11 +7,10 @@ state={
 	history={
 		owner = ITA
 		add_core_of = ITA
-		add_core_of = YUG
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			11735 = {
-				naval_base = 5
+				naval_base = 3
 
 			}
 

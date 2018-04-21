@@ -6,12 +6,12 @@ state={
 	
 	state_category = rural
 	resources={
-		rubber=1 # was: 1
+		rubber=2
 	}
 	history={
 		owner = POR
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			8248 ={
 				naval_base = 1
 			}
