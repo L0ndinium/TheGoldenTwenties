@@ -33,7 +33,8 @@ bookmarks = {
 			history = "ENG_GOLDEN_TWENTIES_DESC"
 			ideology = democratic
 			ideas = {
-				#
+				ENG_idea_british_democracy
+				ENG_idea_won_great_war
 			}
 			focuses = {
 				#

@@ -1,0 +1,35 @@
+ideas = {
+	country = {
+		ENG_idea_british_democracy = {
+			allowed = {
+				original_tag = ENG
+			}
+			
+			removal_cost = -1
+			
+			picture = stiff_upper_lip
+			
+			modifier = {
+				drift_defence_factor = 0.5
+				democratic_drift = 0.01
+			}
+		}
+		ENG_idea_won_great_war = {
+			allowed = {
+				original_tag = ENG
+			}
+			
+			removal_cost = -1
+			
+			picture = ENG_the_war_to_end_all_wars
+			
+			research_bonus = { 
+				land_doctrine = -0.5
+			}
+			
+			modifier = {
+				conscription_factor = -0.25
+			}
+		}
+	}
+}

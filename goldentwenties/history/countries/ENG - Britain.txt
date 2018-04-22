@@ -2,15 +2,70 @@
 
 oob = "ENG_1920"
 
+set_research_slots = 3
+set_convoys = 300
+set_stability = 0.5
+set_war_support = 0.1
+
 set_technology = {
 	infantry_weapons = 1
+}
+
+add_ideas = {
+	ENG_idea_british_democracy
+	ENG_idea_won_great_war
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = MAL
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = RAJ
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = IRQ
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = CAN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = SAF
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = AST
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = NZL
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	else = {
+		puppet = MAL
+		puppet = IRQ
+		puppet = RAJ
+	}
 }
 
 set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 95
 		}
 
 		fascism = {
@@ -18,26 +73,26 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 0
+			popularity = 2
 		}
 		
 		neutrality = { 
-			popularity = 100
+			popularity = 3
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1920.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Leader"
+	name = "David Lloyd George"
 	desc = "#"
-	picture = "#"
+	picture = "gfx/leaders/ENG/DavidLloydGeorge.dds"
 	expire = "2000.1.1"
-	ideology = despotism
+	ideology = conservatism
 	traits = {
 		#
 	}
