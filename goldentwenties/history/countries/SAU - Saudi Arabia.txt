@@ -34,7 +34,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Leader"
-	desc = "POLITICS_GENERIC_LEADER_DESC"
+	desc = "#"
 	picture = "#"
 	expire = "2000.1.1"
 	ideology = despotism
