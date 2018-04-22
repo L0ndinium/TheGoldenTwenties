@@ -2,6 +2,11 @@
 
 oob = "SPR_1920"
 
+set_research_slots = 3
+set_convoys = 30
+set_stability = 0.5
+set_war_support = 0.3
+
 set_technology = {
 	infantry_weapons = 1
 }
@@ -10,7 +15,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 22
 		}
 
 		fascism = {
@@ -18,11 +23,11 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 0
+			popularity = 5
 		}
 		
 		neutrality = { 
-			popularity = 100
+			popularity = 73
 		}
 	}
 	
@@ -33,9 +38,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Leader"
-	desc = "POLITICS_GENERIC_LEADER_DESC"
-	picture = "#"
+	name = "Alfonso XIII"
+	desc = "#"
+	picture = "gfx/leaders/SPR/AlfonsoXIII.dds"
 	expire = "2000.1.1"
 	ideology = despotism
 	traits = {

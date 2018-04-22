@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "GOLDEN_TWENTIES_NAME"
 		desc = "GOLDEN_TWENTIES_DESC"
-		date = 1920.1.1.24
+		date = 1920.1.1.12
 		picture = "GFX_select_date_1920"
 		default_country = "GER"
 		default = yes
@@ -11,7 +11,7 @@ bookmarks = {
 			history = "GER_GOLDEN_TWENTIES_DESC"
 			ideology = democratic
 			ideas = {
-				#
+				GER_idea_treaty_of_versailles
 			}
 			focuses = {
 				#
@@ -22,7 +22,7 @@ bookmarks = {
 			history = "FRA_GOLDEN_TWENTIES_DESC"
 			ideology = democratic
 			ideas = {
-				#
+				FRA_idea_won_great_war
 			}
 			focuses = {
 				#
@@ -53,9 +53,9 @@ bookmarks = {
 		
 		"ITA"={
 			history = "ITA_GOLDEN_TWENTIES_DESC"
-			ideology = neutrality
+			ideology = democratic
 			ideas = {
-				#
+				ITA_idea_fascism_rising
 			}
 			focuses = {
 				#
