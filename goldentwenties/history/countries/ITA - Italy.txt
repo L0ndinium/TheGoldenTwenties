@@ -2,42 +2,62 @@
 
 oob = "ITA_1920"
 
+set_research_slots = 3
+set_convoys = 60
+set_stability = 0.45
+set_war_support = 0.35
+
 set_technology = {
 	infantry_weapons = 1
+}
+
+add_ideas = {
+	ITA_idea_fascism_rising
 }
 
 set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 74
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 9
 		}
 		
 		communism = {
-			popularity = 0
+			popularity = 5
 		}
 		
 		neutrality = { 
-			popularity = 100
+			popularity = 12
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1920.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Leader"
-	desc = "POLITICS_GENERIC_LEADER_DESC"
-	picture = "#"
+	name = "Francesco Nitti"
+	desc = "#"
+	picture = "gfx/leaders/ITA/FrancescoNitti.dds"
 	expire = "2000.1.1"
-	ideology = despotism
+	ideology = socialism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Benito Mussolini"
+	desc = "#"
+	picture = "gfx/leaders/ITA/BenitoMussolini.dds"
+	expire = "2000.1.1"
+	ideology = fascism_ideology
 	traits = {
 		#
 	}

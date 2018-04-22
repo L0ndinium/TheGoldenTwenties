@@ -1,2 +1,4 @@
 Add the League of Nations
 Add Loading Screens and Quotes
+Add a "Historical" mode
+Add more difficulty sliders

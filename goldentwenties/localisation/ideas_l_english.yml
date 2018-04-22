@@ -2537,3 +2537,7 @@
  POL_idea_drift_authoritarian_desc:0 "The Polish State is experiencing a slow drift towards authoritarianism."
  DNZ_idea_city_state:0 "Free City State"
  DNZ_idea_city_state_desc:0 "The Government of the Free City of Danzig is well organized and mostly incorruptible, which makes it hard to influence the politics of the city."
+ SWI_idea_swiss_neutrality:0 "Swiss Neutrality"
+ SWI_idea_swiss_neutrality_desc:0 "Switzerland is a notoriously neutral state, preferring to not take sides in conflict."
+ ITA_idea_fascism_rising:0 "Fascism on the Rise"
+ ITA_idea_fascism_rising_desc:0 "A new ideology promoting strength through unity is on the rise in Italy."
