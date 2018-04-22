@@ -1,0 +1,3 @@
+To install this mod manually, drag both the "tgt.mod" file and the "goldentwenties" folder to the following directory:
+
+Documents/Paradox Interactive/Hearts of Iron IV/mod

@@ -2529,3 +2529,11 @@
 
  GER_idea_treaty_of_versailles:0 "Treaty of Versailles"
  GER_idea_treaty_of_versailles_desc:0 "This treaty, imposed upon the Weimar Republic in 1919, greatly limits Germany's power. It also prohibits Germany from having more than ten divisions at any given time."
+ FRA_idea_won_great_war:0 "War Exhaustion"
+ FRA_idea_won_great_war_desc:0 "The Great War has left France exhausted and its military stagnant."
+ POL_idea_new_state:0 "Inefficient Government"
+ POL_idea_new_state_desc:0 "The Polish State is quite young; although the nation of Poland has existed for centuries and the Polish people have lived in these lands for a long time, the nation itself was only established again briefly after the Great War."
+ POL_idea_drift_authoritarian:0 "Drift towards Authoritarianism"
+ POL_idea_drift_authoritarian_desc:0 "The Polish State is experiencing a slow drift towards authoritarianism."
+ DNZ_idea_city_state:0 "Free City State"
+ DNZ_idea_city_state_desc:0 "The Government of the Free City of Danzig is well organized and mostly incorruptible, which makes it hard to influence the politics of the city."

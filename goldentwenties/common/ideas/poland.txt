@@ -1,0 +1,31 @@
+ideas = {
+	country = {
+		POL_idea_new_state = {
+			allowed = {
+				original_tag = POL
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_morale_bonus
+			
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.5
+			}
+		}
+		POL_idea_drift_authoritarian = {
+			allowed = {
+				original_tag = POL
+			}
+			
+			removal_cost = -1
+			
+			picture = FRA_scw_intervention_nationalists_focus
+			
+			modifier = {
+				neutrality_drift = 0.03
+			}
+		}
+	}
+}

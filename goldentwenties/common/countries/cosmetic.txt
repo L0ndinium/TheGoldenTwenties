@@ -180,3 +180,8 @@ CHI_power_struggle_defeated = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
 }
+
+SAR_protectorate = {
+	color = rgb { 120  160  150 }
+	color_ui = rgb { 120  160  150 }
+}

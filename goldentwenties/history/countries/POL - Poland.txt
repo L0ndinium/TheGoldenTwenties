@@ -2,15 +2,38 @@
 
 oob = "POL_1920"
 
+set_research_slots = 2
+set_convoys = 5
+set_stability = 0.3
+set_war_support = 0.35
+
 set_technology = {
 	infantry_weapons = 1
+}
+
+add_ideas = {
+	POL_idea_new_state
+	POL_idea_drift_authoritarian
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = DNZ
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = DNZ
+	}
 }
 
 set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 61
 		}
 
 		fascism = {
@@ -18,26 +41,37 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 0
+			popularity = 8
 		}
 		
 		neutrality = { 
-			popularity = 100
+			popularity = 31
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1920.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Leader"
-	desc = "POLITICS_GENERIC_LEADER_DESC"
-	picture = "#"
+	name = "Jozef Pilsudski"
+	desc = "#"
+	picture = "gfx/leaders/POL/JozefPilsudski.dds"
 	expire = "2000.1.1"
-	ideology = despotism
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ignacy Moscicki"
+	desc = "#"
+	picture = "gfx/leaders/POL/IgnacyMoscicki.dds"
+	expire = "2000.1.1"
+	ideology = oligarchism
 	traits = {
 		#
 	}
