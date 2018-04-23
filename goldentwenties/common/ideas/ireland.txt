@@ -1,0 +1,18 @@
+ideas = {
+	country = {
+		IRE_idea_guerilla_war = {
+			allowed = {
+				original_tag = IRE
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_war_preparation
+			
+			modifier = {
+				war_support_factor = -0.05
+				conscription_factor = -0.1
+			}
+		}
+	}
+}
