@@ -2,6 +2,11 @@
 
 oob = "ALB_1920"
 
+set_research_slots = 1
+set_convoys = 5
+set_stability = 0.4
+set_war_support = 0.2
+
 set_technology = {
 	infantry_weapons = 1
 }
@@ -33,9 +38,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Leader"
+	name = "Zog I"
 	desc = "#"
-	picture = "#"
+	picture = "gfx/leaders/ALB/ZogI.dds"
 	expire = "2000.1.1"
 	ideology = despotism
 	traits = {

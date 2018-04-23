@@ -1,0 +1,17 @@
+ideas = {
+	country = {
+		GRE_idea_republic_coming = {
+			allowed = {
+				original_tag = GRE
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				democratic_drift = 0.03
+			}
+		}
+	}
+}

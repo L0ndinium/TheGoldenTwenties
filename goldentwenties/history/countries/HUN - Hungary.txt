@@ -2,15 +2,26 @@
 
 oob = "HUN_1920"
 
+set_research_slots = 2
+set_convoys = 0
+set_stability = 0.4
+set_war_support = 0.4
+
 set_technology = {
 	infantry_weapons = 1
+}
+
+add_ideas = {
+	HUN_idea_authoritarian_drift
+	disarmed_nation
+	isolation
 }
 
 set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 59
 		}
 
 		fascism = {
@@ -22,22 +33,33 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 100
+			popularity = 41
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1920.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Leader"
+	name = "Karoly Huszar"
 	desc = "#"
-	picture = "#"
+	picture = "gfx/leaders/HUN/KarolyHuszar.dds"
 	expire = "2000.1.1"
-	ideology = despotism
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Miklos Horthy"
+	desc = "#"
+	picture = "gfx/leaders/HUN/MiklosHorthy.dds"
+	expire = "2000.1.1"
+	ideology = oligarchism
 	traits = {
 		#
 	}

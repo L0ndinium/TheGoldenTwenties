@@ -1,0 +1,30 @@
+ideas = {
+	country = {
+		HUN_idea_authoritarian_drift = {
+			allowed = {
+				original_tag = HUN
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_disjointed_gov
+			
+			modifier = {
+				neutrality_drift = 0.05
+			}
+		}
+		HUN_idea_trianon_treaty = {
+			allowed = {
+				original_tag = HUN
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_constitutional_guarantees
+			
+			modifier = {
+				political_power_gain = -0.25
+			}
+		}
+	}
+}

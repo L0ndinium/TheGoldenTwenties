@@ -2,6 +2,11 @@
 
 oob = "BUL_1920"
 
+set_research_slots = 2
+set_convoys = 10
+set_stability = 0.35
+set_war_support = 0.45
+
 set_technology = {
 	infantry_weapons = 1
 }
@@ -10,7 +15,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 5
 		}
 
 		fascism = {
@@ -18,11 +23,11 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 0
+			popularity = 7
 		}
 		
 		neutrality = { 
-			popularity = 100
+			popularity = 88
 		}
 	}
 	
@@ -33,11 +38,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Leader"
+	name = "Boris III"
 	desc = "#"
-	picture = "#"
+	picture = "gfx/leaders/BUL/BorisIII.dds"
 	expire = "2000.1.1"
-	ideology = despotism
+	ideology = oligarchism
 	traits = {
 		#
 	}
