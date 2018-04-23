@@ -2,6 +2,11 @@
 
 oob = "OMA_1920"
 
+set_research_slots = 1
+set_convoys = 5
+set_stability = 0.2
+set_war_support = 0.2
+
 set_technology = {
 	infantry_weapons = 1
 }
@@ -33,9 +38,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Leader"
+	name = "Taimur bin Faisal"
 	desc = "#"
-	picture = "#"
+	picture = "gfx/leaders/OMA/TaimurBinFaisal.dds"
 	expire = "2000.1.1"
 	ideology = despotism
 	traits = {

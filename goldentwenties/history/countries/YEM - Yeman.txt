@@ -2,6 +2,11 @@
 
 oob = "YEM_1920"
 
+set_research_slots = 1
+set_convoys = 0
+set_stability = 0.2
+set_war_support = 0.3
+
 set_technology = {
 	infantry_weapons = 1
 }
@@ -33,9 +38,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Leader"
+	name = "Yahya Hamididdin"
 	desc = "#"
-	picture = "#"
+	picture = "gfx/leaders/YEM/YahyaHamididdin.dds"
 	expire = "2000.1.1"
 	ideology = despotism
 	traits = {

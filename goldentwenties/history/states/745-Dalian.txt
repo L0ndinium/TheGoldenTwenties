@@ -7,7 +7,7 @@ state={
 	state_category = large_town
 	history=
 	{
-		owner = JAP
+		owner = MAN
 		victory_points = {
 			1150 1 
 		}
@@ -19,7 +19,7 @@ state={
 				naval_base = 2
 			}
 		}
-
+		add_core_of = MAN
 	
 	}
 	manpower=1000000
