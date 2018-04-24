@@ -45,7 +45,7 @@ bookmarks = {
 			history = "USA_GOLDEN_TWENTIES_DESC"
 			ideology = democratic
 			ideas = {
-				#
+				USA_idea_free_land
 			}
 			focuses = {
 				#
