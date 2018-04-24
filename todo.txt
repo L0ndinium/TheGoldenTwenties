@@ -3,4 +3,3 @@ Add Loading Screens and Quotes
 Add a "Historical" mode
 Add more difficulty sliders
 Cosmetic Tags for RAJ, MAL, INS
-US Puppets: Phillipines, Dominican?
