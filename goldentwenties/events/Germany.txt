@@ -1,1 +1,49 @@
-﻿
+﻿add_namespace = germany
+
+#10 or more divisions with Versailles
+country_event = {
+	id = germany.1
+	title = germany.1.t
+	desc = germany.1.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	trigger = {
+		TAG = GER
+		has_idea = GER_idea_treaty_of_versailles
+		NOT = { has_idea = GER_idea_exceeded_divisions }
+		num_divisions > 9
+	}
+	
+	option = {
+		name = germany.1.a
+		ai_chance = { factor = 100 }
+		custom_effect_tooltip = tt_ger_event_1
+		hidden_effect = {
+			add_ideas = GER_idea_exceeded_divisions
+		}
+	}
+}
+
+#Event to remove the spirit from Event 1
+country_event = {
+	id = germany.2
+	title = germany.2.t
+	desc = germany.2.d
+	picture = GFX_report_event_soviet_german_soldier_handshake
+	
+	trigger = {
+		TAG = GER
+		has_idea = GER_idea_treaty_of_versailles
+		has_idea = GER_idea_exceeded_divisions
+		num_divisions < 10
+	}
+	
+	option = {
+		name = germany.2.a
+		ai_chance = { factor = 100 }
+		custom_effect_tooltip = tt_ger_event_2
+		hidden_effect = {
+			remove_ideas = GER_idea_exceeded_divisions
+		}
+	}
+}
