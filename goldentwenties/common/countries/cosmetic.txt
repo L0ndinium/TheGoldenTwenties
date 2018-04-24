@@ -185,3 +185,18 @@ SAR_protectorate = {
 	color = rgb { 120  160  150 }
 	color_ui = rgb { 120  160  150 }
 }
+
+RAJ_britain = {
+	color = rgb { 114  34  20 }
+	color_ui = rgb { 114  34  20 }
+}
+
+MAL_britain = {
+	color = rgb { 178  88  73 }
+	color_ui = rgb { 178  88  73 }
+}
+
+INS_holland = {
+	color = rgb { 224  156  83 }
+	color_ui = rgb { 224  156  83 }
+}
