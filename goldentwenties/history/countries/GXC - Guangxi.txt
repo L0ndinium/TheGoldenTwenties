@@ -2,6 +2,11 @@
 
 oob = "GXC_1920"
 
+set_research_slots = 1
+set_convoys = 10
+set_stability = 0.4
+set_war_support = 0.4
+
 set_technology = {
 	infantry_weapons = 1
 }
@@ -33,9 +38,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Leader"
+	name = "Cheng Chen"
 	desc = "#"
-	picture = "#"
+	picture = "gfx/leaders/GXC/ChengChen.dds"
 	expire = "2000.1.1"
 	ideology = despotism
 	traits = {
