@@ -1,0 +1,19 @@
+﻿add_namespace = tgtsys
+
+#Init, also used for exact dates
+country_event = {
+	id = tgtsys.1
+	title = tgtsys.1.t
+	desc = tgtsys.1.d
+	
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = tgtsys.1.a
+		ai_chance = { factor = 100 }
+		GER = { country_event = { days = 12 id = germany.3 } }
+		GER = { country_event = { days = 40 id = germany.4 } }
+	}
+}

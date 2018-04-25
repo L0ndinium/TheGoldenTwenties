@@ -47,3 +47,206 @@ country_event = {
 		}
 	}
 }
+
+#Reichstag Slaughter
+country_event = {
+	id = germany.3
+	title = germany.3.t
+	desc = germany.3.d
+	picture = GFX_report_event_german_reichstag_gathering
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.3.a
+		ai_chance = { factor = 85 }
+		add_political_power = -5
+	}
+	
+	option = {
+		name = germany.3.b
+		ai_chance = { factor = 15 }
+		add_stability = -0.01
+		add_political_power = -15
+		add_popularity = { ideology = communism popularity = -0.02 }
+	}
+}
+
+#Referendum in Northern Schleswig
+country_event = {
+	id = germany.4
+	title = germany.4.t
+	desc = germany.4.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.4.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			set_country_flag = GER_flag_event_schleswig_tobe_den
+			GER = { country_event = { days = 14 id = germany.7 } }
+		}
+	}
+}
+
+#Transferring Northern Schleswig to Denmark
+country_event = {
+	id = germany.5
+	title = germany.5.t
+	desc = germany.5.d
+	picture = GFX_report_event_generic_sign_treaty3
+	
+	fire_only_once = yes
+	
+	trigger = {
+		TAG = GER
+		date > 1920.7.1
+		GER = { has_country_flag = GER_flag_event_schleswig_tobe_den }
+		GER = { owns_state = 766 }
+		country_exists = DEN
+	}
+	
+	option = {
+		name = germany.5.a
+		ai_chance = { factor = 100 }
+		DEN = { transfer_state = 766 }
+		766 = { add_core_of = DEN }
+		766 = { remove_core_of = GER }
+		hidden_effect = {
+			DEN = { country_event = { id = germany.6 } }
+			clr_country_flag = GER_flag_event_schleswig_tobe_den
+		}
+	}
+}
+
+#Northern Schleswig gets transferred
+country_event = {
+	id = germany.6
+	title = germany.6.t
+	desc = germany.6.d
+	picture = GFX_report_event_generic_peaceful_annexation
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.6.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+#The NSDAP is created
+country_event = {
+	id = germany.7
+	title = germany.7.t
+	desc = germany.7.d
+	picture = GFX_report_event_fascist_militia
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.7.a
+		ai_chance = { factor = 100 }
+		add_popularity = { ideology = fascism popularity = 0.01 }
+		hidden_effect = {
+			GER = { country_event = { days = 16 id = germany.8 } }
+		}
+	}
+	
+	option = {
+		name = germany.7.b
+		ai_chance = { factor = 0 }
+		add_stability = -0.02
+		add_political_power = -30
+		add_popularity = { ideology = fascism popularity = 0.03 }
+		hidden_effect = {
+			GER = { country_event = { days = 16 id = germany.8 } }
+		}
+	}
+	
+	option = {
+		name = germany.7.c
+		ai_chance = { factor = 0 }
+		add_political_power = -50
+		add_ideas = GER_idea_banned_nsdap
+		hidden_effect = {
+			GER = { country_event = { days = 16 id = germany.8 } }
+		}
+	}
+}
+
+#Kapp Putsch beginning
+country_event = {
+	id = germany.8
+	title = germany.8.t
+	desc = germany.8.d
+	picture = GFX_report_event_soldiers_marching
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.8.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			GER = { country_event = { days = 1 id = germany.9 } }
+		}
+	}
+}
+
+#Kapp Putsch
+country_event = {
+	id = germany.9
+	title = germany.9.t
+	desc = germany.9.d
+	picture = GFX_report_event_generic_rally2
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.9.a
+		ai_chance = { factor = 100 }
+		add_timed_idea = { idea = GER_idea_kapp_putsch days = 10 }
+		add_stability = -0.05
+		add_political_power = -80
+		hidden_effect = {
+			GER = { country_event = { days = 2 id = germany.10 } }
+			GER = { country_event = { days = 2 id = germany.11 } }
+		}
+	}
+}
+
+#Devastating strike
+country_event = {
+	id = germany.10
+	title = germany.10.t
+	desc = germany.10.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.10.a
+		ai_chance = { factor = 100 }
+		add_stability = -0.02
+		add_political_power = -30
+	}
+}
+
+#Ruhr Uprising
+country_event = {
+	id = germany.11
+	title = germany.11.t
+	desc = germany.11.d
+	picture = GFX_report_event_communists_cheer
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.11.a
+		ai_chance = { factor = 100 }
+		#Eventually, the Ruhr Uprising will become its own country
+		add_stability = -0.04
+		add_political_power = -70
+	}
+}

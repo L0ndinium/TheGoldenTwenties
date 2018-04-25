@@ -2557,3 +2557,7 @@
  USA_idea_free_land_desc:0 "Land of the Free, Home of the Brave - the USA prides itself in being the world's shining beacon of liberalism."
  GER_idea_exceeded_divisions:0 "Exceeded Divisions"
  GER_idea_exceeded_divisions_desc:0 "Germany exceeded the number of divisions allowed by the Treaty of Versailles. This spirit is normally hidden."
+ GER_idea_banned_nsdap:0 "Banned the NSDAP"
+ GER_idea_banned_nsdap_desc:0 "Germany banned the NSDAP, an emerging fascist party."
+ GER_idea_kapp_putsch:0 "Consequences of the Kapp Putsch"
+ GER_idea_kapp_putsch_desc:0 "Berlin has suffered heavily due to the Kapp Putsch, and it will take a few days to mitigate the effects."

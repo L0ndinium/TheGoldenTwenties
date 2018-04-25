@@ -1,0 +1,26 @@
+
+state={
+	id=767
+	name="STATE_767"
+	manpower = 2935849
+	buildings_max_level_factor = 1
+
+	state_category = megalopolis
+
+
+	history={
+		owner = GER
+		victory_points = {
+			6521 50 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		6521
+	}
+}
