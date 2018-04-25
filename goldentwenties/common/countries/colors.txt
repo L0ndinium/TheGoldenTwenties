@@ -541,3 +541,8 @@ DNZ = {
 	color = rgb { 150  230  210 }
 	color_ui = rgb { 150  230  210 }
 }
+
+FIU = {
+	color = rgb { 209  79  64 }
+	color_ui = rgb { 209  79  64 }
+}

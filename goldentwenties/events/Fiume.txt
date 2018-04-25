@@ -1,0 +1,43 @@
+﻿add_namespace = fiume
+
+#Regency reforms into Republic
+country_event = {
+	id = fiume.1
+	title = fiume.1.t
+	desc = fiume.1.d
+	picture = GFX_report_event_romania_parliament
+	
+	fire_only_once = yes
+	
+	trigger = {
+		TAG = FIU
+		date > 1921.10.1
+		NOT = { FIU = { has_government = democratic } }
+	}
+	
+	option = {
+		name = fiume.1.a
+		ai_chance = { factor = 100 }
+		custom_effect_tooltip = tt_fiu_event_1
+		hidden_effect = {
+			set_cosmetic_tag = FIU_republic
+			set_politics = { ruling_party = democratic elections_allowed = no }
+			add_popularity = { ideology = democratic popularity = 1 }
+			create_country_leader = {
+				name = "Riccardo Zanella"
+				desc = "#"
+				picture = "gfx/leaders/FIU/RiccardoZanella.dds"
+				expire = "2000.1.1"
+				ideology = conservatism
+				traits = {
+					#
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = fiume.1.b
+		ai_chance = { factor = 0 }
+	}
+}

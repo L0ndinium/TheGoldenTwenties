@@ -22,3 +22,9 @@
  germany.2.d:0 "We are no longer above the number of divisions we are allowed to have according to the Treaty of Versailles and can now deploy new divisions again."
  germany.2.a:0 "Great!"
  tt_ger_event_2:0 "§GWe will be able to deploy new divisions again!§!"
+ 
+ fiume.1.t:0 "A new Republic?"
+ fiume.1.d:0 "Seeing as we have now gathered a bit of reputation as a free state on the stage of world politics, perhaps it is time to make ourselves an actual free state - by establishing a Republic, the Free State of Fiume."
+ fiume.1.a:0 "Yes, let us reform."
+ fiume.1.b:0 "No, we will keep the Regency!"
+ tt_fiu_event_1:0 "§YWe will reform into the Free State of Fiume, with Riccardo Zanella as our leader.§!"

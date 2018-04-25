@@ -200,3 +200,8 @@ INS_holland = {
 	color = rgb { 224  156  83 }
 	color_ui = rgb { 224  156  83 }
 }
+
+FIU_republic = {
+	color = rgb { 209  79  64 }
+	color_ui = rgb { 209  79  64 }
+}
