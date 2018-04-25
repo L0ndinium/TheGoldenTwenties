@@ -53,6 +53,17 @@
  germany.11.t: "Revolt in the Ruhr!"
  germany.11.d: "A left-wing movement of workers in the Ruhr has declared an open war against our government! They are angered due to the terrible conditions that post-war destruction and political instability, especially the Kapp Putsch, have brought unto us. We will probably have to dispatch the army to deal with those riots..."
  germany.11.a: "Verdammt!"
+ germany.12.t:0 "NSDAP Speech in Munich"
+ germany.12.d:0 "The newly founded NSDAP has held a rally in Munich today. A charismatic young man by the name of Adolf Hitler was holding a speech - we identified him as a soldier from the Great War. His words seemed to agitate the people, but there still seems to be no threat from this small movement."
+ germany.12.a:0 "Why should we even care?"
+ germany.12.b:0 "We should try to keep our population away from this party."
+ germany.13.t:0 "Reichstagswahl June 1920"
+ germany.13.d:0 "Elections have taken place in the Reichstag, and the results are in: The Weimar Coalition has lost a lot of votes, and more extreme parties have gained more votes, mainly the USPD on the left-wing side and the DVP/DNVP on the right-wing side."
+ germany.13.a:0 "It seems we are experiencing a drift towards more extreme parties..."
+ 
+ hungary.1.t:0 "The Treaty of Trianon"
+ hungary.1.d:0 "Having been in discussion ever since the Great War, today is the day the Treaty of Trianon is to be imposed upon our country. It will significantly weaken us, but we can't risk a war with the former Entente..."
+ hungary.1.a:0 "We will have to accept this."
  
  fiume.1.t:0 "A new Republic?"
  fiume.1.d:0 "Seeing as we have now gathered a bit of reputation as a free state on the stage of world politics, perhaps it is time to make ourselves an actual free state - by establishing a Republic, the Free State of Fiume."
