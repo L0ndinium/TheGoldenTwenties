@@ -297,3 +297,222 @@ country_event = {
 		add_popularity = { ideology = communism popularity = 0.03 }
 	}
 }
+
+#Start paying war reparations
+country_event = {
+	id = germany.14
+	title = germany.14.t
+	desc = germany.14.d
+	picture = GFX_report_event_generic_conference
+	
+	fire_only_once = yes
+	
+	trigger = {
+		TAG = GER
+		has_idea = GER_idea_treaty_of_versailles
+		NOT = { has_idea = GER_idea_war_reparations }
+	}
+	
+	option = {
+		name = germany.14.a
+		ai_chance = { factor = 100 }
+		add_ideas = GER_idea_war_reparations
+		hidden_effect = {
+			ENG = { add_ideas = GER_idea_war_reparations_by_GER }
+			FRA = { add_ideas = GER_idea_war_reparations_by_GER }
+			ENG = { country_event = { id = germany.15 } }
+			FRA = { country_event = { id = germany.15 } }
+		}
+	}
+	
+	option = {
+		name = germany.14.b
+		ai_chance = { factor = 0 }
+		custom_effect_tooltip = tt_ger_event_14
+		FRA = { country_event = { days = 1 id = germany.16 } }
+	}
+}
+
+#Germany starts paying
+country_event = {
+	id = germany.15
+	title = germany.15.t
+	desc = germany.15.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.15.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+#Germany refuses to pay
+country_event = {
+	id = germany.16
+	title = germany.16.t
+	desc = germany.16.d
+	picture = GFX_report_event_generic_train
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.16.a
+		ai_chance = { factor = 95 }
+		GER = { country_event = { days = 1 id = germany.18 } }
+		ENG = { country_event = { days = 1 id = germany.19 } }
+		declare_war_on = { target = GER type = annex_everything }
+		hidden_effect = {
+			set_global_flag = GER_flag_war_for_reparations
+		}
+	}
+	
+	option = {
+		name = germany.16.b
+		ai_chance = { factor = 5 }
+		GER = { country_event = { days = 1 id = germany.17 } }
+	}
+}
+
+#France allows not paying
+country_event = {
+	id = germany.17
+	title = germany.17.t
+	desc = germany.17.d
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.17.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+#France goes to war
+country_event = {
+	id = germany.18
+	title = germany.18.t
+	desc = germany.18.d
+	picture = GFX_report_event_generic_battle
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.18.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+#Call to arms - Britain
+country_event = {
+	id = germany.19
+	title = germany.19.t
+	desc = germany.19.d
+	picture = GFX_report_event_generic_lend_lease
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.19.a
+		ai_chance = { factor = 85 }
+		add_to_war = { targeted_alliance = FRA enemy = GER }
+	}
+	
+	option = {
+		name = germany.19.b
+		ai_chance = { factor = 15 }
+	}
+}
+
+#Fixed Peace in the Reparations War - French Victory
+country_event = {
+	id = germany.20
+	title = germany.20.t
+	desc = germany.20.d
+	picture = GFX_report_event_canada_treaty
+	
+	fire_only_once = yes
+	
+	trigger = {
+		TAG = GER
+		has_global_flag = GER_flag_war_for_reparations
+		GER = { surrender_progress > 0.5 }
+	}
+	
+	option = {
+		name = germany.20.a
+		ai_chance = { factor = 100 }
+		add_ideas = GER_idea_war_reparations
+		custom_effect_tooltip = tt_ger_event_20
+		hidden_effect = {
+			clr_global_flag = GER_flag_war_for_reparations
+			white_peace = ENG
+			white_peace = FRA
+			ENG = { add_ideas = GER_idea_war_reparations_by_GER }
+			FRA = { add_ideas = GER_idea_war_reparations_by_GER }
+			ENG = { country_event = { days = 1 id = germany.22 } }
+			FRA = { country_event = { days = 1 id = germany.22 } }
+		}
+	}
+}
+	
+#Fixed Peace in the Reparations War - German Victory
+country_event = {
+	id = germany.21
+	title = germany.21.t
+	desc = germany.21.d
+	picture = GFX_report_event_canada_treaty
+	
+	fire_only_once = yes
+	
+	trigger = {
+		TAG = GER
+		has_global_flag = GER_flag_war_for_reparations
+		FRA = { surrender_progress > 0.5 }
+	}
+	
+	option = {
+		name = germany.21.a
+		ai_chance = { factor = 100 }
+		custom_effect_tooltip = tt_ger_event_21
+		hidden_effect = {
+			clr_global_flag = GER_flag_war_for_reparations
+			white_peace = ENG
+			white_peace = FRA
+			ENG = { country_event = { days = 1 id = germany.23 } }
+			FRA = { country_event = { days = 1 id = germany.23 } }
+		}
+	}
+}
+
+#Reparations War - Germany Loses
+country_event = {
+	id = germany.22
+	title = germany.22.t
+	desc = germany.22.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.22.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+#Reparations War - Germany Wins
+country_event = {
+	id = germany.23
+	title = germany.23.t
+	desc = germany.23.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.23.a
+		ai_chance = { factor = 100 }
+	}
+}

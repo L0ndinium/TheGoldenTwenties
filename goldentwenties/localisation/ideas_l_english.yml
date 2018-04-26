@@ -2561,3 +2561,7 @@
  GER_idea_banned_nsdap_desc:0 "Germany banned the NSDAP, an emerging fascist party."
  GER_idea_kapp_putsch:0 "Consequences of the Kapp Putsch"
  GER_idea_kapp_putsch_desc:0 "Berlin has suffered heavily due to the Kapp Putsch, and it will take a few days to mitigate the effects."
+ GER_idea_war_reparations:0 "War Reparations"
+ GER_idea_war_reparations_desc:0 "Germany is paying War Reparations for the Great War."
+ GER_idea_war_reparations_by_GER:0 "Reparations from Germany"
+ GER_idea_war_reparations_by_GER_desc:0 "Germany pays War Reparations for the Great War towards this nation."

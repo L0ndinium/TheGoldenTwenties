@@ -47,6 +47,33 @@ ideas = {
 				political_power_factor = -1
 			}
 		}
+		GER_idea_war_reparations = {
+			allowed = {
+				original_tag = GER
+			}
+			
+			removal_cost = -1
+			
+			picture = ROM_king_carol_emptied_accounts
+			
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+		}
+		GER_idea_war_reparations_by_GER = {
+			allowed = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
 	}
 	
 	hidden_ideas = {
