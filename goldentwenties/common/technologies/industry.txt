@@ -733,11 +733,6 @@ technologies = {
 	}
 	
 	synth_oil_experiments = {
-
-		enable_building = {
-			building = synthetic_refinery
-			level = 3
-		}
 				
 		path = {
 			leads_to_tech = oil_processing 

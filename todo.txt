@@ -1,5 +1,6 @@
 Add the League of Nations
 Add a "Historical" mode
-Decisions: Ignore Versailles, Lift NSDAP ban
+Decisions: Ignore Versailles, Lift NSDAP ban, Bicycle Infantry
 Improve the Ruhr Uprising
 Demilitarize the Ruhr in 1925 (Locarno)
+Rebalance Units and Equipment (Reminder: Halve Values! (Except IC Cost which will go +250%) )
