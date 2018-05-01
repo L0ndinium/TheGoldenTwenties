@@ -4500,4 +4500,264 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/infantry_mechanized_5.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_tech_support_equipment_medium"
+		texturefile = "gfx/interface/technologies/support_equipment.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_engineers_medium"
+		texturefile = "gfx/interface/technologies/support_engineers_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_engineers_2_medium"
+		texturefile = "gfx/interface/technologies/support_engineers_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_engineers_3_medium"
+		texturefile = "gfx/interface/technologies/support_engineers_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_engineers_4_medium"
+		texturefile = "gfx/interface/technologies/support_engineers_4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_engineers_5_medium"
+		texturefile = "gfx/interface/technologies/support_engineers_5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_engineers_6_medium"
+		texturefile = "gfx/interface/technologies/support_engineers_6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_engineers_7_medium"
+		texturefile = "gfx/interface/technologies/support_engineers_7.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_engineers_8_medium"
+		texturefile = "gfx/interface/technologies/support_engineers_8.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_recon_medium"
+		texturefile = "gfx/interface/technologies/support_recon_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_recon_2_medium"
+		texturefile = "gfx/interface/technologies/support_recon_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_recon_3_medium"
+		texturefile = "gfx/interface/technologies/support_recon_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_recon_4_medium"
+		texturefile = "gfx/interface/technologies/support_recon_4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_recon_5_medium"
+		texturefile = "gfx/interface/technologies/support_recon_5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_recon_6_medium"
+		texturefile = "gfx/interface/technologies/support_recon_6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_recon_7_medium"
+		texturefile = "gfx/interface/technologies/support_recon_7.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_recon_8_medium"
+		texturefile = "gfx/interface/technologies/support_recon_8.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_military_police_medium"
+		texturefile = "gfx/interface/technologies/support_military_police_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_military_police_2_medium"
+		texturefile = "gfx/interface/technologies/support_military_police_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_military_police_3_medium"
+		texturefile = "gfx/interface/technologies/support_military_police_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_military_police_4_medium"
+		texturefile = "gfx/interface/technologies/support_military_police_4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_military_police_5_medium"
+		texturefile = "gfx/interface/technologies/support_military_police_5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_military_police_6_medium"
+		texturefile = "gfx/interface/technologies/support_military_police_6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_military_police_7_medium"
+		texturefile = "gfx/interface/technologies/support_military_police_7.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_military_police_8_medium"
+		texturefile = "gfx/interface/technologies/support_military_police_8.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_maintenance_company_medium"
+		texturefile = "gfx/interface/technologies/support_maintenance_company_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_maintenance_company_2_medium"
+		texturefile = "gfx/interface/technologies/support_maintenance_company_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_maintenance_company_3_medium"
+		texturefile = "gfx/interface/technologies/support_maintenance_company_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_maintenance_company_4_medium"
+		texturefile = "gfx/interface/technologies/support_maintenance_company_4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_maintenance_company_5_medium"
+		texturefile = "gfx/interface/technologies/support_maintenance_company_5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_maintenance_company_6_medium"
+		texturefile = "gfx/interface/technologies/support_maintenance_company_6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_maintenance_company_7_medium"
+		texturefile = "gfx/interface/technologies/support_maintenance_company_7.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_maintenance_company_8_medium"
+		texturefile = "gfx/interface/technologies/support_maintenance_company_8.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_field_hospital_medium"
+		texturefile = "gfx/interface/technologies/support_field_hospital_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_field_hospital_2_medium"
+		texturefile = "gfx/interface/technologies/support_field_hospital_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_field_hospital_3_medium"
+		texturefile = "gfx/interface/technologies/support_field_hospital_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_field_hospital_4_medium"
+		texturefile = "gfx/interface/technologies/support_field_hospital_4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_field_hospital_5_medium"
+		texturefile = "gfx/interface/technologies/support_field_hospital_5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_field_hospital_6_medium"
+		texturefile = "gfx/interface/technologies/support_field_hospital_6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_field_hospital_7_medium"
+		texturefile = "gfx/interface/technologies/support_field_hospital_7.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_logistics_company_medium"
+		texturefile = "gfx/interface/technologies/support_logistics_company_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_logistics_company_2_medium"
+		texturefile = "gfx/interface/technologies/support_logistics_company_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_logistics_company_3_medium"
+		texturefile = "gfx/interface/technologies/support_logistics_company_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_logistics_company_4_medium"
+		texturefile = "gfx/interface/technologies/support_logistics_company_4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_logistics_company_5_medium"
+		texturefile = "gfx/interface/technologies/support_logistics_company_5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_logistics_company_6_medium"
+		texturefile = "gfx/interface/technologies/support_logistics_company_6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_logistics_company_7_medium"
+		texturefile = "gfx/interface/technologies/support_logistics_company_7.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_signal_company_medium"
+		texturefile = "gfx/interface/technologies/support_signal_company_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_signal_company_2_medium"
+		texturefile = "gfx/interface/technologies/support_signal_company_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_signal_company_3_medium"
+		texturefile = "gfx/interface/technologies/support_signal_company_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_signal_company_4_medium"
+		texturefile = "gfx/interface/technologies/support_signal_company_4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_support_signal_company_5_medium"
+		texturefile = "gfx/interface/technologies/support_signal_company_5.dds"
+	}
+	
 }

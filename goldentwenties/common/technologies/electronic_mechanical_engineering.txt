@@ -92,11 +92,6 @@ technologies = {
 			position = { x = -2 y = 2 }
 		}
 		
-		folder = {
-			name = support_folder
-			position = { x = 11 y = 9 } # x = 12 y = 0
-		}
-		
 		ai_will_do = {
 			factor = 3
 			
@@ -855,4 +850,16 @@ technologies = {
 			nuclear
 		}
 	}
+	
+	#Required for Signal Company, to be added
+	tech_eme_radio_1 = {
+		
+		allow = {
+			always = no
+		}
+		
+		research_cost = 1
+		start_year = 1920
+	}
+	
 }
