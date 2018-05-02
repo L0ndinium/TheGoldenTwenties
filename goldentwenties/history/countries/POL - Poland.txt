@@ -4,8 +4,8 @@ oob = "POL_1920"
 
 set_research_slots = 2
 set_convoys = 5
-set_stability = 0.3
-set_war_support = 0.35
+set_stability = 0.5
+set_war_support = 0.75
 
 set_technology = {
 	tech_infantry_weapons_1 = 1
@@ -28,6 +28,9 @@ if = {
 		puppet = DNZ
 	}
 }
+
+declare_war_on = { target = SOV type = annex_everything }
+set_country_flag = POL_flag_war_soviets
 
 set_politics = {
 

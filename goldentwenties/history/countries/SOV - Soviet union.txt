@@ -11,6 +11,32 @@ set_technology = {
 	tech_infantry_weapons_1 = 1
 }
 
+add_ideas = {
+	SOV_idea_recent_revolution
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = BLR
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = UKR
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = BLR
+		puppet = UKR
+	}
+}
+
+create_faction = "faction_soviets"
+add_to_faction = BLR
+add_to_faction = UKR
+
 set_politics = {
 
 	parties = {

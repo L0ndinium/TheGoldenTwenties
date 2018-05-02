@@ -205,3 +205,13 @@ FIU_republic = {
 	color = rgb { 209  79  64 }
 	color_ui = rgb { 209  79  64 }
 }
+
+UKR_ssr = {
+	color = rgb { 140 40 60 }
+	color_ui = rgb { 140 40 60 }
+}
+
+BLR_ssr = {
+	color = rgb { 140 40 60 }
+	color_ui = rgb { 140 40 60 }
+}

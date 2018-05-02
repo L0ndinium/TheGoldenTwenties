@@ -67,7 +67,7 @@ bookmarks = {
 			history = "SOV_GOLDEN_TWENTIES_DESC"
 			ideology = communism
 			ideas = {
-				#
+				SOV_idea_recent_revolution
 			}
 			focuses = {
 				#

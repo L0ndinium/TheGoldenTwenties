@@ -1,1 +1,98 @@
-﻿
+﻿add_namespace = poland
+
+#Soviet-Polish War - Poland loses (Treaty of Warsaw)
+country_event = {
+	id = poland.1
+	title = poland.1.t
+	desc = poland.1.d
+	picture = GFX_report_event_generic_conference
+	
+	fire_only_once = yes
+	
+	trigger = {
+		TAG = POL
+		POL = { has_country_flag = POL_flag_war_soviets }
+		POL = { has_war_with = SOV }
+		POL = { surrender_progress > 0.65 }
+	}
+	
+	option = {
+		name = poland.1.a
+		ai_chance = { factor = 100 }
+		custom_effect_tooltip = tt_pol_event_1
+		hidden_effect = {
+			POL = { white_peace = SOV }
+			UKR = { transfer_state = 92 }
+			BLR = { transfer_state = 97 }
+			92 = { add_core_of = UKR }
+			97 = { add_core_of = BLR }
+			92 = { remove_core_of = POL }
+			97 = { remove_core_of = POL }
+			news_event = news.1
+			clr_country_flag = POL_flag_war_soviets
+		}
+	}
+}
+	
+#Soviet-Polish War - Poland wins (Treaty of Riga)
+country_event = {
+	id = poland.2
+	title = poland.2.t
+	desc = poland.2.d
+	picture = GFX_report_event_generic_conference
+	
+	fire_only_once = yes
+	
+	trigger = {
+		TAG = POL
+		POL = { has_country_flag = POL_flag_war_soviets }
+		POL = { has_war_with = SOV }
+		POL = { surrender_progress < 0.15 }
+		date > 1920.3.1
+	}
+	
+	option = {
+		name = poland.2.a
+		ai_chance = { factor = 100 }
+		custom_effect_tooltip = tt_pol_event_2
+		hidden_effect = {
+			POL = { white_peace = SOV }
+			POL = { transfer_state = 89 }
+			POL = { transfer_state = 91 }
+			POL = { transfer_state = 93 }
+			POL = { transfer_state = 94 }
+			POL = { transfer_state = 95 }
+			POL = { transfer_state = 96 }
+			89 = { add_core_of = POL }
+			91 = { add_core_of = POL }
+			93 = { add_core_of = POL }
+			94 = { add_core_of = POL }
+			95 = { add_core_of = POL }
+			96 = { add_core_of = POL }
+			89 = { remove_core_of = UKR }
+			91 = { remove_core_of = UKR }
+			93 = { remove_core_of = UKR }
+			94 = { remove_core_of = UKR }
+			95 = { remove_core_of = BLR }
+			96 = { remove_core_of = BLR }
+			news_event = news.2
+			clr_country_flag = POL_flag_war_soviets
+		}
+	}
+}
+
+#Intro Event, explaining the War
+country_event = {
+	id = poland.3
+	title = poland.3.t
+	desc = poland.3.d
+	picture = GFX_report_event_polish_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = poland.3.a
+		ai_chance = { factor = 100 }
+		custom_effect_tooltip = tt_pol_event_3
+	}
+}

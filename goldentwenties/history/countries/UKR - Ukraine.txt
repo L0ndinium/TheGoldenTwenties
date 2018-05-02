@@ -2,9 +2,16 @@
 
 oob = "UKR_1920"
 
+set_research_slots = 2
+set_convoys = 10
+set_stability = 0.4
+set_war_support = 0.25
+
 set_technology = {
 	tech_infantry_weapons_1 = 1
 }
+
+set_cosmetic_tag = UKR_ssr
 
 set_politics = {
 
@@ -18,26 +25,26 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 0
+			popularity = 89
 		}
 		
 		neutrality = { 
-			popularity = 100
+			popularity = 11
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "1920.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Leader"
+	name = "Grigory Petrovsky"
 	desc = "#"
-	picture = "#"
+	picture = "gfx/leaders/UKR/GrigoryPetrovsky.dds"
 	expire = "2000.1.1"
-	ideology = despotism
+	ideology = leninism
 	traits = {
 		#
 	}

@@ -2,15 +2,22 @@
 
 oob = "BLR_1920"
 
+set_research_slots = 2
+set_convoys = 0
+set_stability = 0.3
+set_war_support = 0.3
+
 set_technology = {
 	tech_infantry_weapons_1 = 1
 }
+
+set_cosmetic_tag = BLR_ssr
 
 set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 2
 		}
 
 		fascism = {
@@ -18,26 +25,26 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 0
+			popularity = 88
 		}
 		
 		neutrality = { 
-			popularity = 100
+			popularity = 10
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "1920.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Leader"
+	name = "Vilhelm Knorin"
 	desc = "#"
-	picture = "#"
+	picture = "gfx/leaders/BLR/VilhelmKnorin.dds"
 	expire = "2000.1.1"
-	ideology = despotism
+	ideology = marxism
 	traits = {
 		#
 	}

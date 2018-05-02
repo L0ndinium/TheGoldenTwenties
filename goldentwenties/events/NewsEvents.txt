@@ -1,1 +1,51 @@
-﻿
+﻿add_namespace = news
+
+#Poland loses the War with Russia
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_romania_poland_visit
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.a
+		trigger = {
+			NOT = {
+				TAG = POL
+			}
+		}
+	}
+	option = {
+		name = news.1.b
+		trigger = { TAG = POL }
+	}
+}
+
+#Poland wins the War with Russia
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_polish_resistance_warsaw
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.2.a
+		trigger = {
+			NOT = {
+				TAG = POL
+			}
+		}
+	}
+	option = {
+		name = news.2.b
+		trigger = { TAG = POL }
+	}
+}
