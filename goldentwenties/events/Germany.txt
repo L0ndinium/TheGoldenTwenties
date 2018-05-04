@@ -516,3 +516,68 @@ country_event = {
 		ai_chance = { factor = 100 }
 	}
 }
+
+#Hidden Event to remove the "Allowed NSDAP" Flag
+country_event = {
+	id = germany.24
+	title = germany.24.t
+	desc = germany.24.d
+	
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.24.a
+		ai_chance = { factor = 100 }
+		clr_country_flag = GER_flag_decision_recently_allowed_nsdap
+	}
+}
+
+#Hidden Event to remove the "Banned NSDAP" Flag
+country_event = {
+	id = germany.25
+	title = germany.25.t
+	desc = germany.25.d
+	
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.25.a
+		ai_chance = { factor = 100 }
+		clr_country_flag = GER_flag_decision_recently_banned_nsdap
+	}
+}
+
+#Groß-Berlin-Gesetz
+country_event = {
+	id = germany.26
+	title = germany.26.t
+	desc = germany.26.d
+	picture = GFX_report_event_generic_factory
+	
+	fire_only_once = yes
+	
+	trigger = {
+		TAG = GER
+		GER = { owns_state = 767 }
+		767 = { is_capital = yes }
+		date > 1920.10.1
+	}
+	
+	option = {
+		name = germany.26.a
+		ai_chance = { factor = 100 }
+		add_political_power = -10
+		767 = { add_extra_state_shared_building_slots = 1 }
+		767 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+	}
+	
+	option = {
+		name = germany.26.b
+		ai_chance = { factor = 0 }
+		add_political_power = -5
+	}
+}

@@ -1,0 +1,74 @@
+GER_decision_category_internal_politics = {
+	
+	#Lift Ban on the NSDAP
+	GER_decision_lift_nsdap_ban = {
+		
+		icon = generic_political_discourse
+		
+		available = {
+			NOT = { GER = { is_puppet = yes } }
+			has_stability > 0.25
+		}
+		
+		visible = {
+			TAG = GER
+			has_idea = GER_idea_banned_nsdap
+			NOT = { GER = { has_government = fascism } }
+		}
+		
+		fire_only_once = no
+		
+		cost = 25
+		
+		complete_effect = {
+			remove_ideas = GER_idea_banned_nsdap
+			custom_effect_tooltip = tt_ger_decision_ban_nsdap
+			hidden_effect = {
+				set_country_flag = GER_flag_decision_recently_allowed_nsdap
+				GER = { country_event = { days = 90 id = germany.24 } }
+			}
+		}
+		
+		ai_will_do = {
+			base = 0 
+		}
+		
+	}
+	
+	#Ban the NSDAP again
+	GER_decision_unlift_nsdap_ban = {
+		
+		icon = generic_political_discourse
+		
+		available = {
+			NOT = { GER = { is_puppet = yes } }
+			has_stability > 0.25
+		}
+		
+		visible = {
+			TAG = GER
+			NOT = { has_idea = GER_idea_banned_nsdap }
+			NOT = { GER = { has_country_flag = GER_flag_decision_recently_allowed_nsdap } }
+			NOT = { GER = { has_government = fascism } }
+			date > 1920.3.1
+		}
+		
+		fire_only_once = no
+		
+		cost = 25
+		
+		complete_effect = {
+			add_ideas = GER_idea_banned_nsdap
+			custom_effect_tooltip = tt_ger_decision_allow_nsdap
+			hidden_effect = {
+				set_country_flag = GER_flag_decision_recently_banned_nsdap
+				GER = { country_event = { days = 90 id = germany.25 } }
+			}
+		}
+		
+		ai_will_do = {
+			base = 0
+		}
+	}
+	
+}

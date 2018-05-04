@@ -1,0 +1,419 @@
+ideas = {
+	
+	army_spending_laws = {
+		law = yes
+		
+		law_minimal_spending = {
+		
+			cost = 150
+			removal_cost = -1
+			level = 5
+			
+			available = {
+				NOT = {
+					OR = {
+						has_idea = war_economy
+						has_idea = tot_economic_mobilisation
+					}
+				}
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.02
+				max_planning = -0.05
+				planning_speed = -0.05
+				army_org_Factor = -0.02
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 1
+   				modifier = {
+					factor = 5
+					has_idea = disarmed_nation 
+				}
+			}
+			
+		}
+		
+		law_small_spending = {
+		
+			cost = 150
+			removal_cost = -1
+			level = 4
+			
+			available = {
+				NOT = { has_idea = tot_economic_mobilisation }
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.04
+				max_planning = 0.05
+				planning_speed = 0.05
+				army_org_Factor = 0.02
+				experience_gain_army = 0.005
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 2
+			}
+			
+		}
+		
+		law_normal_spending = {
+		
+			cost = 150
+			removal_cost = -1
+			level = 3
+			
+			available = {
+				always = yes
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				max_planning = 0.1
+				planning_speed = 0.1
+				army_org_Factor = 0.04
+				experience_gain_army = 0.01
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 5
+			}
+			
+		}
+		
+		law_big_spending = {
+		
+			cost = 150
+			removal_cost = -1
+			level = 2
+			
+			available = {
+				NOT = {
+					OR = {
+						has_idea = undisturbed_isolation
+						has_idea = isolation
+					}
+				}
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.08
+				max_planning = 0.2
+				planning_speed = 0.1
+				army_org_Factor = 0.08
+				experience_gain_army = 0.02
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 2
+			}
+			
+		}
+	
+		law_massive_spending = {
+		
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				NOT = {
+					OR = {
+						has_idea = undisturbed_isolation
+						has_idea = isolation
+						has_idea = civilian_economy
+					}
+				}
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.1
+				max_planning = 0.25
+				planning_speed = 0.15
+				army_org_Factor = 0.1
+				experience_gain_army = 0.03
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 1
+   				modifier = {
+					factor = 5
+					has_idea = tot_economic_mobilisation
+				}
+			}
+			
+		}
+		
+	}
+	
+	social_support_laws = {
+		law = yes
+		
+		law_no_social_support = {
+		
+			cost = 150
+			removal_cost = -1
+			level = 4
+			
+			available = {
+				NOT = {
+					AND = {
+						has_idea = civilian_economy
+						has_government = democratic
+					}
+				}
+			}
+
+			modifier = {
+				political_power_factor = 0.1
+				stability_factor = -0.04
+				drift_defence_factor = -0.1
+				MONTHLY_POPULATION = -0.1
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					factor = 5
+					has_idea = tot_economic_mobilisation
+				}
+			}
+			
+		}
+		
+		law_minimal_social_support = {
+		
+			cost = 150
+			removal_cost = -1
+			level = 3
+			
+			available = {
+				always = yes
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.04
+				stability_factor = 0.02
+				drift_defence_factor = 0.05
+				MONTHLY_POPULATION = 0.03
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 5
+			}
+			
+		}
+		
+		law_moderate_social_support = {
+		
+			cost = 150
+			removal_cost = -1
+			level = 2
+			
+			available = {
+				NOT = {
+					OR = {
+						has_idea = isolation
+						has_idea = undisturbed_isolation
+					}
+				}
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.08
+				stability_factor = 0.05
+				drift_defence_factor = 0.15
+				MONTHLY_POPULATION = 0.05
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 2
+				modifier = {
+					factor = 2
+					has_idea = civilian_economy
+				}
+			}
+			
+		}
+		
+		law_extensive_social_support = {
+		
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				NOT = {
+					OR = {
+						has_idea = isolation
+						has_idea = undisturbed_isolation
+					}
+				}
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.12
+				stability_factor = 0.08
+				drift_defence_factor = 0.25
+				MONTHLY_POPULATION = 0.06
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 1
+			}
+			
+		}
+		
+	}
+	
+	police_laws = {
+		law = yes
+		
+		law_police_anarchy = {
+		
+			cost = 150
+			removal_cost = -1
+			level = 4
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				drift_defence_factor = -0.5
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 0
+			}
+			
+		}
+		
+		law_police_basic = {
+		
+			cost = 150
+			removal_cost = -1
+			level = 3
+			
+			available = {
+				always = yes
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.02
+				stability_factor = 0.02
+				enemy_partisan_effect = -0.08
+				decryption_factor = 0.1
+				encryption_factor = 0.1
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 8
+			}
+			
+		}
+		
+		law_police_high = {
+		
+			cost = 150
+			removal_cost = -1
+			level = 2
+			
+			available = {
+				NOT = {
+					OR = {
+						has_idea = isolation
+						has_idea = undisturbed_isolation
+					}
+				}
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.03
+				stability_factor = 0.03
+				enemy_partisan_effect = -0.12
+				decryption_factor = 0.15
+				encryption_factor = 0.15
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 2
+			}
+			
+		}
+		
+		law_police_massive = {
+		
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				OR = {
+					has_government = communism
+					has_government = fascism
+				}
+				NOT = {
+					OR = {
+						has_idea = isolation
+						has_idea = undisturbed_isolation
+					}
+				}
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.03
+				enemy_partisan_effect = -0.3
+				decryption_factor = 0.2
+				encryption_factor = 0.2				
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 1
+			}
+			
+		}
+		
+	}
+	
+}

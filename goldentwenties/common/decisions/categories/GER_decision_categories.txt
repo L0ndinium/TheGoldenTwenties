@@ -1,0 +1,9 @@
+GER_decision_category_internal_politics = {
+	
+	allowed = {
+		original_tag = GER
+	}
+	
+	icon = generic_political_actions
+	
+}

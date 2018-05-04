@@ -18,6 +18,18 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
+		slot = army_spending_laws
+		slot = social_support_laws
+		slot = police_laws
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
+	political_advisors = {
+		slot = political_advisor
+		slot = political_advisor
+		slot = political_advisor
 		slot = political_advisor
 		slot = political_advisor
 		slot = political_advisor
