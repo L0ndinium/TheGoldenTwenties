@@ -19,3 +19,6 @@
  GER_flag_decision_recently_allowed_nsdap:0 "Germany has recently reallowed the NSDAP."
  tt_ger_decision_ban_nsdap:0 "§YWe will be able ban the NSDAP again later, if we wish to.§!"
  tt_ger_decision_allow_nsdap:0 "§YWe will be able to lift the ban again later, if we wish to.§!"
+ ENG_decision_category_foreign_politics:0 "British Foreign Politics"
+ ENG_decision_propose_peace_IRE:0 "Propose a Treaty to Ireland"
+ ENG_decision_propose_peace_IRE_desc:0 "The Irish War of Independence has been causing issues in Ireland since 1919 now, it is time to put an end to this."

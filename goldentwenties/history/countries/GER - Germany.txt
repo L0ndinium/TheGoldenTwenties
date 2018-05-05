@@ -16,6 +16,7 @@ add_ideas = {
 	disarmed_nation
 	isolation
 	limited_exports
+	law_small_spending
 }
 
 set_politics = {

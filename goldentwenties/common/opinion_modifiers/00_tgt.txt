@@ -1,0 +1,7 @@
+opinion_modifiers = {
+
+	eng_opinion_event_3 = {
+		value = 25
+	}
+
+}

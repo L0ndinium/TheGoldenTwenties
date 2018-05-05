@@ -215,3 +215,8 @@ BLR_ssr = {
 	color = rgb { 140 40 60 }
 	color_ui = rgb { 140 40 60 }
 }
+
+IRE_british_puppet = {
+	color = rgb { 178 73 99 }
+	color_ui = rgb { 178 73 99 }
+}

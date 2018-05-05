@@ -263,6 +263,7 @@ country_event = {
 	trigger = {
 		TAG = GER
 		date > 1920.5.5
+		date < 1920.8.1
 		NOT = { GER = { has_idea = GER_idea_banned_nsdap } }
 	}
 	

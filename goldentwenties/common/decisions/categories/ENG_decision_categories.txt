@@ -1,0 +1,9 @@
+ENG_decision_category_foreign_politics = {
+	
+	allowed = {
+		original_tag = ENG
+	}
+	
+	icon = generic_political_actions
+	
+}

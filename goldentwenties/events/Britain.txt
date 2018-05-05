@@ -1,1 +1,280 @@
-﻿
+﻿add_namespace = britain
+
+#England chooses what to propose to Ireland
+country_event = {
+	id = britain.1
+	title = britain.1.t
+	desc = britain.1.d
+	picture = GFX_report_event_ast_parliament_house
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = britain.1.a
+		ai_chance = { factor = 90 }
+		custom_effect_tooltip = eng_tt_event_1_a
+		hidden_effect = {
+			IRE = { country_event = { days = 1 id = britain.2 } }
+		}
+	}
+	
+	option = {
+		name = britain.1.b
+		ai_chance = { factor = 5 }
+		custom_effect_tooltip = eng_tt_event_1_b
+		hidden_effect = {
+			IRE = { country_event = { days = 1 id = britain.3 } }
+		}
+	}
+	
+	option = {
+		name = britain.1.c
+		ai_chance = { factor = 5 }
+		custom_effect_tooltip = eng_tt_event_1_c
+		hidden_effect = {
+			IRE = { country_event = { days = 1 id = britain.4 } }
+		}
+	}
+}
+
+#Ireland gets proposal - be free but give back northern Ireland
+country_event = {
+	id = britain.2
+	title = britain.2.t
+	desc = britain.2.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = britain.2.a
+		ai_chance = { factor = 90 }
+		remove_ideas = IRE_idea_guerilla_war
+		ENG = { transfer_state = 119 }
+		ENG = { add_state_core = 119 }
+		119 = { remove_core_of = IRE }
+		hidden_effect = {
+			ENG = { country_event = { days = 1 id = britain.9 } }
+		}
+	}
+	
+	option = {
+		name = britain.2.b
+		ai_chance = { factor = 10 }
+		ENG = { country_event = { days = 1 id = britain.10 } }
+	}
+}
+
+#Ireland gets proposal - be free without concessions
+country_event = {
+	id = britain.3
+	title = britain.3.t
+	desc = britain.3.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = britain.3.a
+		ai_chance = { factor = 100 }
+		remove_ideas = IRE_idea_guerilla_war
+		custom_effect_tooltip = tt_eng_event_3
+		hidden_effect = {
+			add_opinion_modifier = { target = ENG modifier = eng_opinion_event_3 }
+			reverse_add_opinion_modifier = { target = ENG modifier = eng_opinion_event_3 }
+			ENG = { country_event = { days = 1 id = britain.8 } }
+		}
+	}
+}
+
+#Ireland gets proposal - rejoin with Britain at once
+country_event = {
+	id = britain.4
+	title = britain.4.t
+	desc = britain.4.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = britain.4.a
+		ai_chance = { 
+			factor = 20
+			modifier = {
+				factor = 3
+				AND = {
+					ic_ratio = { tag = ENG ratio < 0.25 }
+					strength_ratio = { tag = ENG ratio < 0.5 }
+				}
+			}
+		}
+		custom_effect_tooltip = tt_eng_event_4
+		ENG = { country_event = { days = 1 id = britain.5 } }
+	}
+	
+	option = {
+		name = britain.4.b
+		ai_chance = { factor = 80 }
+		ENG = { country_event = { days = 1 id = britain.6 } }
+	}
+}
+
+#Option C - Ireland accepts
+country_event = {
+	id = britain.5
+	title = britain.5.t
+	desc = britain.5.d
+	picture = GFX_report_event_generic_sign_treaty2
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = britain.5.a
+		ai_chance = { factor = 40 }
+		custom_effect_tooltip = tt_eng_event_5
+		hidden_effect = {
+			annex_country = { target = IRE }
+			ENG = { add_state_core = 113 }
+			ENG = { add_state_core = 119 }
+			ENG = { add_state_core = 134 }
+			ENG = { add_state_core = 135 }
+			113 = { remove_core_of = IRE }
+			119 = { remove_core_of = IRE }
+			134 = { remove_core_of = IRE }
+			135 = { remove_core_of = IRE }
+			news_event = news.3
+		}
+	}
+	
+	option = {
+		name = britain.5.b
+		ai_chance = { factor = 60 }
+		set_autonomy = { 
+			target = IRE 
+			autonomy_state = autonomy_integrated_puppet
+		}
+		hidden_effect = {
+			IRE = { set_cosmetic_tag = IRE_british_puppet }
+			IRE = { remove_ideas = IRE_idea_guerilla_war }
+			news_event = news.4
+		}
+	}
+}
+
+#Option C - Ireland refuses
+country_event = {
+	id = britain.6
+	title = britain.6.t
+	desc = britain.6.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = britain.6.a
+		ai_chance = { factor = 85 }
+		declare_war_on = { target = IRE type = annex_everything }
+	}
+	
+	option = {
+		name = britain.6.b
+		ai_chance = { factor = 15 }
+		IRE = { country_event = { days = 1 id = britain.7 } }
+	}
+}
+
+#Ireland gets away with refusing Option C
+country_event = {
+	id = britain.7
+	title = britain.7.t
+	desc = britain.7.d
+	picture = GFX_report_event_generic_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = britain.7.a
+		ai_chance = { factor = 100 }
+		remove_ideas = IRE_idea_guerilla_war
+		hidden_effect = {
+			news_event = news.5
+		}
+	}
+}
+
+#Ireland accepts Option B
+country_event = {
+	id = britain.8
+	title = britain.8.t
+	desc = britain.8.d
+	picture = GFX_report_event_generic_conference
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = britain.8.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			news_event = news.5
+		}
+	}
+}
+
+#Ireland accepts Option A
+country_event = {
+	id = britain.9
+	title = britain.9.t
+	desc = britain.9.d
+	picture = GFX_report_event_generic_conference
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = britain.9.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			news_event = news.6
+		}
+	}
+}
+	
+#Ireland refuses Option A
+country_event = {
+	id = britain.10
+	title = britain.10.t
+	desc = britain.10.d
+	picture = GFX_report_event_generic_conference
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = britain.10.a
+		ai_chance = { factor = 50 }
+		declare_war_on = { target = IRE type = annex_everything }
+	}
+	
+	option = {
+		name = britain.10.b
+		ai_chance = { factor = 50 }
+		IRE = { country_event = { days = 1 id = britain.11 } }
+	}
+}
+
+#Ireland gets away with refusing Option A
+country_event = {
+	id = britain.11
+	title = britain.11.t
+	desc = britain.11.d
+	picture = GFX_report_event_generic_sign_treaty3
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = britain.11.a
+		ai_chance = { factor = 100 }
+		remove_ideas = IRE_idea_guerilla_war
+		hidden_effect = {
+			news_event = news.5
+		}
+	}
+}

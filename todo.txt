@@ -1,8 +1,11 @@
 Add the League of Nations
 Add a "Historical" mode
-Decisions: Ignore Versailles, Lift NSDAP ban, Bicycle Infantry
+Decisions: Ignore Versailles, Bicycle Infantry
 Improve the Ruhr Uprising
 Demilitarize the Ruhr in 1925 (Locarno)
-Rebalance Units and Equipment (Reminder: Halve Values! (Except IC Cost which will go +250%) )
+Rebalance Units and Equipment (Reminder: Halve Values! (Except IC Cost which will go +250%))
 Training for certain combat enviroments?
 Add a System to influence Stability and War Support dynamically
+Do the OOBs
+Get a handle on custom GUI work, this could make some really cool stuff possible
+Greco-Turkish War
