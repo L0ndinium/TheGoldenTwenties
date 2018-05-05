@@ -1,1 +1,61 @@
-﻿
+﻿add_namespace = greece
+
+#Greece wins the Greco-Turkish War
+country_event = {
+	id = greece.1
+	title = greece.1.t
+	desc = greece.1.d
+	picture = GFX_report_event_generic_army
+	
+	fire_only_once = yes
+	
+	trigger = {
+		TAG = GRE
+		has_global_flag = greco_turkish_war_ongoing
+		GRE = { has_war_with = TUR }
+		TUR = { surrender_progress > 0.6 }
+	}
+	
+	option = {
+		name = greece.1.a
+		ai_chance = { factor = 100 }
+		custom_effect_tooltip = tt_gre_event_1
+		hidden_effect = {
+			clr_global_flag = greco_turkish_war_ongoing
+			GRE = { transfer_state = 341 }
+			341 = { add_core_of = GRE }
+			341 = { remove_core_of = TUR }
+			white_peace = TUR
+			set_province_name = { id = 9833 name = "Constantinople" }
+			news_event = news.7
+		}
+	}
+}
+
+#Turkey wins the Greco-Turkish War
+country_event = {
+	id = greece.2
+	title = greece.2.t
+	desc = greece.2.d
+	picture = GFX_report_event_generic_rally_3
+	
+	fire_only_once = yes
+	
+	trigger = {
+		TAG = TUR
+		has_global_flag = greco_turkish_war_ongoing
+		GRE = { has_war_with = TUR }
+		GRE = { surrender_progress > 0.4 }
+	}
+	
+	option = {
+		name = greece.2.a
+		ai_chance = { factor = 100 }
+		custom_effect_tooltip = tt_gre_event_2
+		hidden_effect = {
+			clr_global_flag = greco_turkish_war_ongoing
+			white_peace = GRE
+			news_event = news.8
+		}
+	}
+}

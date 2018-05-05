@@ -15,5 +15,6 @@ country_event = {
 		ai_chance = { factor = 100 }
 		GER = { country_event = { days = 12 id = germany.3 } }
 		GER = { country_event = { days = 40 id = germany.4 } }
+		set_global_flag = greco_turkish_war_ongoing
 	}
 }

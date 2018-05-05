@@ -17,6 +17,12 @@ state={
 			infrastructure = 3
 			air_base = 1
 		}
+		victory_points = {
+			3914 3 
+		}
+		victory_points = {
+			12001 3 
+		}
 		add_core_of = GRE
 	}
 
