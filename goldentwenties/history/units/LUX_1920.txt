@@ -1,0 +1,20 @@
+﻿division_template = {
+
+	name = "Public Force"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "Public Force of Luxembourg" 
+		location = 6583
+		division_template = "Public Force"
+		start_experience_factor = 0.3
+	}
+	
+}

@@ -1,0 +1,55 @@
+﻿division_template = {
+
+	name = "Dutch Infantry"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "1st Dutch Infantry" 
+		location = 391
+		division_template = "Dutch Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd Dutch Infantry" 
+		location = 391
+		division_template = "Dutch Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3rd Dutch Infantry" 
+		location = 3211
+		division_template = "Dutch Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "4th Dutch Infantry" 
+		location = 6496
+		division_template = "Dutch Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "1st Indonesian Division" 
+		location = 7381
+		division_template = "Dutch Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd Indonesian Division" 
+		location = 4608
+		division_template = "Dutch Infantry"
+		start_experience_factor = 0.1
+	}
+	
+}

@@ -1,0 +1,47 @@
+﻿division_template = {
+
+	name = "Belgian Infantry"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "1st Belgian Infantry" 
+		location = 516
+		division_template = "Belgian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd Belgian Infantry" 
+		location = 516
+		division_template = "Belgian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3rd Belgian Infantry" 
+		location = 6598
+		division_template = "Belgian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "4th Belgian Infantry" 
+		location = 11519
+		division_template = "Belgian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "Congo Division" 
+		location = 5117
+		division_template = "Belgian Infantry"
+		start_experience_factor = 0.1
+	}
+	
+}

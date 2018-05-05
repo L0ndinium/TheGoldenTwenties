@@ -6,5 +6,5 @@ Demilitarize the Ruhr in 1925 (Locarno)
 Rebalance Units and Equipment (Reminder: Halve Values! (Except IC Cost which will go +250%))
 Training for certain combat enviroments?
 Add a System to influence Stability and War Support dynamically
-Do the OOBs
+Do the OOBs (Land, Naval, Air)
 Get a handle on custom GUI work, this could make some really cool stuff possible
