@@ -1,0 +1,23 @@
+state={
+	id=769
+	name="STATE_769"
+	manpower=5927362
+	
+	state_category = megalopolis
+
+	history={
+		owner = ENG
+		victory_points = {
+			6103 50 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		6103 11333
+	}
+}

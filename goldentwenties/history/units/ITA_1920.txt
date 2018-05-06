@@ -1,0 +1,95 @@
+﻿division_template = {
+
+	name = "Italian Division"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	
+}
+
+division_template = {
+
+	name = "Cavalry Division"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "1st Italian Division" 
+		location = 9904
+		division_template = "Italian Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd Italian Division" 
+		location = 819
+		division_template = "Italian Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3rd Italian Division" 
+		location = 10074
+		division_template = "Italian Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "4th Italian Division" 
+		location = 9907
+		division_template = "Italian Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "5th Italian Division" 
+		location = 6788
+		division_template = "Italian Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "6th Italian Division" 
+		location = 11954
+		division_template = "Italian Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "7th Italian Division" 
+		location = 12991
+		division_template = "Italian Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "1st Cavalry Division" 
+		location = 9904
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd Cavalry Division" 
+		location = 819
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3rd Cavalry Division" 
+		location = 6606
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "4th Cavalry Division" 
+		location = 4159
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+	}
+	
+}

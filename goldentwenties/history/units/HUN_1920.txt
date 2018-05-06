@@ -1,0 +1,41 @@
+﻿division_template = {
+
+	name = "Hungarian Mixed Division"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "1st Hungarian Mixed" 
+		location = 9660
+		division_template = "Hungarian Mixed Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd Hungarian Mixed" 
+		location = 9660
+		division_template = "Hungarian Mixed Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3rd Hungarian Mixed" 
+		location = 11610
+		division_template = "Hungarian Mixed Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "4th Hungarian Mixed" 
+		location = 11659
+		division_template = "Hungarian Mixed Division"
+		start_experience_factor = 0.1
+	}
+
+}

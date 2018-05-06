@@ -1,0 +1,65 @@
+﻿division_template = {
+
+	name = "Anatolian Infantry"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "1st Turkish Infantry" 
+		location = 9833
+		division_template = "Anatolian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd Turkish Infantry" 
+		location = 9833
+		division_template = "Anatolian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3rd Turkish Infantry" 
+		location = 947
+		division_template = "Anatolian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "4th Turkish Infantry" 
+		location = 4112
+		division_template = "Anatolian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "5th Turkish Infantry" 
+		location = 1005
+		division_template = "Anatolian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "6th Turkish Infantry" 
+		location = 11747
+		division_template = "Anatolian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "7th Turkish Infantry" 
+		location = 11747
+		division_template = "Anatolian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "8th Turkish Infantry" 
+		location = 9893
+		division_template = "Anatolian Infantry"
+		start_experience_factor = 0.1
+	}
+	
+}

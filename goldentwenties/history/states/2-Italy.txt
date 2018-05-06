@@ -1,19 +1,18 @@
 state= {
 	id=2
 	name="STATE_2" # Latium
-	manpower = 2481971
+	manpower = 1381971
 	
 	state_category = city
 
 	history=
 	{
 		owner = ITA
-		victory_points = { 9904 40 }
 		victory_points = { 11846 5 }
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			air_base = 3
-			industrial_complex = 2
+			industrial_complex = 1
 			11751 = {
 				naval_base = 3
 			}
@@ -22,6 +21,6 @@ state= {
 	}
 
 	provinces= {
-		923 6862 9794 9904 11751 11846 11882
+		923 6862 9794 11751 11846 11882
  	}
 }

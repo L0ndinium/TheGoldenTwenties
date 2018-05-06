@@ -1,0 +1,47 @@
+﻿division_template = {
+
+	name = "Portugese Infantry"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "1st Portugese Infantry" 
+		location = 11805
+		division_template = "Portugese Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd Portugese Infantry" 
+		location = 9817
+		division_template = "Portugese Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3rd Portugese Infantry" 
+		location = 1751
+		division_template = "Portugese Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "4th Portugese Infantry" 
+		location = 8248
+		division_template = "Portugese Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "5th Portugese Infantry" 
+		location = 8245
+		division_template = "Portugese Infantry"
+		start_experience_factor = 0.1
+	}
+	
+}

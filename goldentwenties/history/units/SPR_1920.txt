@@ -1,0 +1,70 @@
+﻿division_template = {
+
+	name = "Spanish Infantry"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	
+}
+
+division_template = {
+
+	name = "Spanish Cavalry"		
+	
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "1st Spanish Infantry" 
+		location = 3938
+		division_template = "Spanish Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd Spanish Infantry" 
+		location = 7183
+		division_template = "Spanish Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3rd Spanish Infantry" 
+		location = 9764
+		division_template = "Spanish Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "4th Spanish Infantry" 
+		location = 758
+		division_template = "Spanish Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "1st Spanish Cavalry" 
+		location = 3938
+		division_template = "Spanish Cavalry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd Spanish Cavalry" 
+		location = 6906
+		division_template = "Spanish Cavalry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3rd Spanish Cavalry" 
+		location = 9945
+		division_template = "Spanish Cavalry"
+		start_experience_factor = 0.1
+	}
+	
+}

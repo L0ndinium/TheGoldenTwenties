@@ -1,0 +1,40 @@
+﻿division_template = {
+
+	name = "Infanteriedivision"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "1. Infanteriedivision" 
+		location = 11666
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2. Infanteriedivision" 
+		location = 9648
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3. Infanteriedivision" 
+		location = 688
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "4. Infanteriedivision" 
+		location = 673
+		division_template = "Infanteriedivision"
+		start_experience_factor = 0.1
+	}
+
+}

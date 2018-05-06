@@ -1,0 +1,34 @@
+﻿division_template = {
+
+	name = "Scandinavian Infantry"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "1st Scandinavian Infantry" 
+		location = 6115
+		division_template = "Scandinavian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd Scandinavian Infantry" 
+		location = 122
+		division_template = "Scandinavian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3rd Scandinavian Infantry" 
+		location = 3022
+		division_template = "Scandinavian Infantry"
+		start_experience_factor = 0.1
+	}
+	
+}

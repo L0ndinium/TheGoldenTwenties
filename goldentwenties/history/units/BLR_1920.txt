@@ -1,0 +1,40 @@
+﻿division_template = {
+
+	name = "Soviet Infantry"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "1st Belarus Division" 
+		location = 11370
+		division_template = "Soviet Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd Belarus Division" 
+		location = 11370
+		division_template = "Soviet Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3rd Belarus Division" 
+		location = 3320
+		division_template = "Soviet Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "4th Belarus Division" 
+		location = 11241
+		division_template = "Soviet Infantry"
+		start_experience_factor = 0.1
+	}
+
+}

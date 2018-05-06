@@ -766,3 +766,6 @@
  STATE_765:0 "Fiume"
  STATE_766:0 "Northern Schleswig"
  STATE_767:0 "Berlin"
+ STATE_768:0 "Paris"
+ STATE_769:0 "London"
+ STATE_770:0 "Rome"

@@ -1,0 +1,20 @@
+﻿division_template = {
+
+	name = "Royal Legion"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "Royal Legion of Fiume" 
+		location = 591
+		division_template = "Royal Legion"
+		start_experience_factor = 0.1
+	}
+
+}

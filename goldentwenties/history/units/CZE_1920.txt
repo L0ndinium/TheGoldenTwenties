@@ -1,0 +1,49 @@
+﻿division_template = {
+
+	name = "Czech Infantry"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "1st Czech Infantry" 
+		location = 11542
+		division_template = "Czech Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd Czech Infantry" 
+		location = 3569
+		division_template = "Czech Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3rd Czech Infantry" 
+		location = 9692
+		division_template = "Czech Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "4th Czech Infantry" 
+		location = 6573
+		division_template = "Czech Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "5th Czech Infantry" 
+		location = 6418
+		division_template = "Czech Infantry"
+		start_experience_factor = 0.1
+	}
+	
+}

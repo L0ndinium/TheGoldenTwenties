@@ -1,0 +1,83 @@
+﻿division_template = {
+
+	name = "Yugoslavian Infantry"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	
+}
+
+division_template = {
+
+	name = "Cavalry Division"		
+	
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "1st Yugoslavian Infantry" 
+		location = 11586
+		division_template = "Yugoslavian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd Yugoslavian Infantry" 
+		location = 11581
+		division_template = "Yugoslavian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3rd Yugoslavian Infantry" 
+		location = 9627
+		division_template = "Yugoslavian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "4th Yugoslavian Infantry" 
+		location = 11899
+		division_template = "Yugoslavian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "5th Yugoslavian Infantry" 
+		location = 3882
+		division_template = "Yugoslavian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "6th Yugoslavian Infantry" 
+		location = 11574
+		division_template = "Yugoslavian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "7th Yugoslavian Infantry" 
+		location = 6619
+		division_template = "Yugoslavian Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "1st Cavalry Division" 
+		location = 11586
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd Cavalry Division" 
+		location = 3924
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.1
+	}
+	
+}

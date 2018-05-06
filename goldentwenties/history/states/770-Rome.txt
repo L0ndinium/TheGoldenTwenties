@@ -1,0 +1,22 @@
+state= {
+	id=770
+	name="STATE_770"
+	manpower = 1194736
+	
+	state_category = metropolis
+
+	history=
+	{
+		owner = ITA
+		victory_points = { 9904 40 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		}
+		add_core_of = ITA
+	}
+
+	provinces= {
+		9904
+ 	}
+}

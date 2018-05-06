@@ -1,0 +1,70 @@
+﻿division_template = {
+
+	name = "Soviet Infantry"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "1st Ukrainian Division" 
+		location = 525
+		division_template = "Soviet Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd Ukrainian Division" 
+		location = 525
+		division_template = "Soviet Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3rd Ukrainian Division" 
+		location = 11479
+		division_template = "Soviet Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "4th Ukrainian Division" 
+		location = 11479
+		division_template = "Soviet Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "5th Ukrainian Division" 
+		location = 3392
+		division_template = "Soviet Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "6th Ukrainian Division" 
+		location = 3686
+		division_template = "Soviet Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "7th Ukrainian Division" 
+		location = 11670
+		division_template = "Soviet Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "8th Ukrainian Division" 
+		location = 11405
+		division_template = "Soviet Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "9th Ukrainian Division" 
+		location = 9461
+		division_template = "Soviet Infantry"
+		start_experience_factor = 0.1
+	}
+	
+}

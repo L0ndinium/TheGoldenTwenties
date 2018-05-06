@@ -1,0 +1,97 @@
+﻿division_template = {
+
+	name = "French Division"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	
+}
+
+division_template = {
+
+	name = "French Cavalry"		
+	
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 2 y = 0 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "1st French Division" 
+		location = 11506
+		division_template = "French Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd French Division" 
+		location = 9737
+		division_template = "French Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3rd French Division" 
+		location = 3671
+		division_template = "French Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "4th French Division" 
+		location = 3594
+		division_template = "French Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "5th French Division" 
+		location = 9503
+		division_template = "French Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "6th French Division" 
+		location = 11548
+		division_template = "French Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "7th French Division" 
+		location = 4111
+		division_template = "French Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "8th French Division" 
+		location = 7069
+		division_template = "French Division"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "1st French Cavalry" 
+		location = 9523
+		division_template = "French Cavalry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd French Cavalry" 
+		location = 3552
+		division_template = "French Cavalry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3rd French Cavalry" 
+		location = 11834
+		division_template = "French Cavalry"
+		start_experience_factor = 0.1
+	}
+
+}

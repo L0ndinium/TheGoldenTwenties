@@ -1,0 +1,34 @@
+﻿division_template = {
+
+	name = "Danish Infantry"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "1st Danish Infantry" 
+		location = 6287
+		division_template = "Danish Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd Danish Infantry" 
+		location = 3325
+		division_template = "Danish Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3rd Danish Infantry" 
+		location = 6364
+		division_template = "Danish Infantry"
+		start_experience_factor = 0.1
+	}
+
+}

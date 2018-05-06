@@ -8,3 +8,5 @@ Training for certain combat enviroments?
 Add a System to influence Stability and War Support dynamically
 Do the OOBs (Land, Naval, Air)
 Get a handle on custom GUI work, this could make some really cool stuff possible
+Add generic advisors and companies
+Add more victory points

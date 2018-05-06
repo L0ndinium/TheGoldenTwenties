@@ -1,21 +1,18 @@
+
 state={
 	id=126
 	name="STATE_126"
-	manpower=9224296
+	manpower = 2163174
 	
-	state_category = megalopolis
+	state_category = large_city
 
 	history={
 		owner = ENG
-		victory_points = {
-			6103 50 
-		}
+		victory_points = { 11253 5 }
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			arms_factory = 1
-			industrial_complex = 1
 			dockyard = 1
-			air_base = 4
 			11374 = {
 				naval_base = 5
 			}
@@ -24,6 +21,6 @@ state={
 	}
 
 	provinces={
-		6103 9239 11333 11374 
+		9239 11374
 	}
 }

@@ -1,0 +1,46 @@
+﻿division_template = {
+
+	name = "Greek Infantry"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "1st Greek Infantry" 
+		location = 4109
+		division_template = "Greek Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd Greek Infantry" 
+		location = 4109
+		division_template = "Greek Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "3rd Greek Infantry" 
+		location = 3914
+		division_template = "Greek Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "4th Greek Infantry" 
+		location = 11818
+		division_template = "Greek Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "5th Greek Infantry" 
+		location = 11905
+		division_template = "Greek Infantry"
+		start_experience_factor = 0.1
+	}
+
+}

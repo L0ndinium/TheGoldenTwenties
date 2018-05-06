@@ -1,0 +1,27 @@
+﻿division_template = {
+
+	name = "Irish Infantry"		
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "1st Irish Infantry" 
+		location = 11293
+		division_template = "Irish Infantry"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		name = "2nd Irish Infantry" 
+		location = 7394
+		division_template = "Irish Infantry"
+		start_experience_factor = 0.1
+	}
+
+}
