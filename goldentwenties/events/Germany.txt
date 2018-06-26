@@ -14,6 +14,10 @@ country_event = {
 		num_divisions > 9
 	}
 	
+	mean_time_to_happen = {
+		days = 3
+	}
+	
 	option = {
 		name = germany.1.a
 		ai_chance = { factor = 100 }
@@ -36,6 +40,10 @@ country_event = {
 		has_idea = GER_idea_treaty_of_versailles
 		has_idea = GER_idea_exceeded_divisions
 		num_divisions < 10
+	}
+	
+	mean_time_to_happen = {
+		days = 3
 	}
 	
 	option = {

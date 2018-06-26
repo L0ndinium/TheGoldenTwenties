@@ -1,6 +1,7 @@
 ﻿add_namespace = tgtsys
 
 #Init, also used for exact dates
+#Dates calculate as January 1 + Number of Days, meaning "days = 9" would result in the Event firing on January 10
 country_event = {
 	id = tgtsys.1
 	title = tgtsys.1.t
@@ -13,6 +14,7 @@ country_event = {
 	option = {
 		name = tgtsys.1.a
 		ai_chance = { factor = 100 }
+		FRA = { country_event = { days = 9 id = france.1 } }
 		GER = { country_event = { days = 12 id = germany.3 } }
 		GER = { country_event = { days = 40 id = germany.4 } }
 		set_global_flag = greco_turkish_war_ongoing

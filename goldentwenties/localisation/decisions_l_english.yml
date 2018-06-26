@@ -22,3 +22,6 @@
  ENG_decision_category_foreign_politics:0 "British Foreign Politics"
  ENG_decision_propose_peace_IRE:0 "Propose a Treaty to Ireland"
  ENG_decision_propose_peace_IRE_desc:0 "The Irish War of Independence has been causing issues in Ireland since 1919 now, it is time to put an end to this."
+ generic_decision_category_league:0 "League of Nations"
+ generic_decision_leave_lon:0 "Leave the League of Nations"
+ generic_decision_leave_lon_desc:0 "We do not see a benefit for our nation from the League of Nations in any way anymore. We must leave this useless association."

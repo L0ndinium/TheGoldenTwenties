@@ -2584,3 +2584,5 @@
  law_police_basic:0 "Basic Police Force & Judicial System"
  law_police_high:0 "Extensive Police Force & Judicial System"
  law_police_massive:0 "Surveillance State"
+ generic_idea_lon_member:0 "League of Nations Member"
+ generic_idea_lon_member_desc:0 "This Country is a Member of the League of Nations. Founded in 1920, this organization strives to bring the nations of the world partaking in it closer together, and seeks to solve disputes and discuss treaties in a diplomatic manner."

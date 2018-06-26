@@ -1,4 +1,3 @@
-Add the League of Nations
 Add a "Historical" mode
 Decisions: Ignore Versailles, Bicycle Infantry
 Improve the Ruhr Uprising
@@ -10,3 +9,6 @@ Do the OOBs (Land, Naval, Air)
 Get a handle on custom GUI work, this could make some really cool stuff possible
 Add generic advisors and companies
 Add more victory points
+Add a demilitarization system so nations don't stay at "War Economy" for 20 years
+Make the League of Nations do something (Pass Resolutions, Intervene in Conflicts...)
+Add a dynamic system to (re)join the League of Nations

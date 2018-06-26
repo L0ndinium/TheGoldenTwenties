@@ -3,7 +3,21 @@ ideas = {
 	hidden_ideas = { }
 
 	# Special ones that can be applied on other countries through focus system.
-	country = {	}
+	country = {
+		generic_idea_lon_member = {
+			allowed = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_league_of_nations
+			
+			modifier = {
+				political_power_factor = 0.05
+			}
+		}
+	}
 	
 	political_advisor = {
 		# POLITICAL	

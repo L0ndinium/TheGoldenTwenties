@@ -1,1 +1,128 @@
-﻿
+﻿add_namespace = france
+
+#The Paris Conference (League of Nations founded)
+country_event = {
+	id = france.1
+	title = france.1.t
+	desc = france.1.d
+	picture = GFX_report_event_soviet_finnish_pact
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = france.1.a
+		ai_chance = { factor = 100 }
+		add_ideas = generic_idea_lon_member
+		custom_effect_tooltip = tt_fra_event_1_a
+		hidden_effect = {
+			news_event = news.10
+			ARG = { country_event = { days = 1 id = france.2 } }
+			BEL = { country_event = { days = 1 id = france.2 } }
+			BOL = { country_event = { days = 1 id = france.2 } }
+			ENG = { country_event = { days = 1 id = france.2 } }
+			AST = { country_event = { days = 1 id = france.2 } }
+			CAN = { country_event = { days = 1 id = france.2 } }
+			RAJ = { country_event = { days = 1 id = france.2 } }
+			NZL = { country_event = { days = 1 id = france.2 } }
+			SAF = { country_event = { days = 1 id = france.2 } }
+			CHL = { country_event = { days = 1 id = france.2 } }
+			CHI = { country_event = { days = 1 id = france.2 } }
+			COL = { country_event = { days = 1 id = france.2 } }
+			CUB = { country_event = { days = 1 id = france.2 } }
+			CZE = { country_event = { days = 1 id = france.2 } }
+			DEN = { country_event = { days = 1 id = france.2 } }
+			ELS = { country_event = { days = 1 id = france.2 } }
+			GRE = { country_event = { days = 1 id = france.2 } }
+			GUA = { country_event = { days = 1 id = france.2 } }
+			HAI = { country_event = { days = 1 id = france.2 } }
+			HON = { country_event = { days = 1 id = france.2 } }
+			ITA = { country_event = { days = 1 id = france.2 } }
+			JAP = { country_event = { days = 1 id = france.2 } }
+			LIB = { country_event = { days = 1 id = france.2 } }
+			HOL = { country_event = { days = 1 id = france.2 } }
+			NIC = { country_event = { days = 1 id = france.2 } }
+			NOR = { country_event = { days = 1 id = france.2 } }
+			PAR = { country_event = { days = 1 id = france.2 } }
+			PER = { country_event = { days = 1 id = france.2 } }
+			PRU = { country_event = { days = 1 id = france.2 } }
+			POL = { country_event = { days = 1 id = france.2 } }
+			POR = { country_event = { days = 1 id = france.2 } }
+			ROM = { country_event = { days = 1 id = france.2 } }
+			SIA = { country_event = { days = 1 id = france.2 } }
+			SPR = { country_event = { days = 1 id = france.2 } }
+			SWE = { country_event = { days = 1 id = france.2 } }
+			SWI = { country_event = { days = 1 id = france.2 } }
+			URG = { country_event = { days = 1 id = france.2 } }
+			VEN = { country_event = { days = 1 id = france.2 } }
+			YUG = { country_event = { days = 1 id = france.2 } }
+		}
+	}
+	
+	option = {
+		name = france.1.b
+		ai_chance = { factor = 0 }
+		add_political_power = -500
+		custom_effect_tooltip = tt_fra_event_1_b
+	}
+	
+}
+
+#Invited to the League of Nations!
+country_event = {
+	id = france.2
+	title = france.2.t
+	desc = france.2.d
+	picture = GFX_report_event_generic_peaceful_annexation
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = france.2.a
+		ai_chance = { factor = 100 }
+		add_ideas = generic_idea_lon_member
+	}
+	
+	option = {
+		name = france.2.b
+		ai_chance = { factor = 0 }
+		add_political_power = -25
+	}
+	
+}
+
+#Opportunity to add 6 more nations to the League
+country_event = {
+	id = france.3
+	title = france.3.t
+	desc = france.3.d
+	picture = GFX_report_event_generic_sign_treaty2
+	
+	fire_only_once = yes
+	
+	trigger = {
+		TAG = FRA
+		date > 1920.12.14
+		FRA = { has_idea = generic_idea_lon_member }
+	}
+	
+	option = {
+		name = france.3.a
+		ai_chance = { factor = 100 }
+		custom_effect_tooltip = tt_fra_event_3_a
+		hidden_effect = {
+			AUS = { country_event = { days = 1 id = france.2 } }
+			BUL = { country_event = { days = 1 id = france.2 } }
+			COS = { country_event = { days = 1 id = france.2 } }
+			FIN = { country_event = { days = 1 id = france.2 } }
+			LUX = { country_event = { days = 1 id = france.2 } }
+			ALB = { country_event = { days = 1 id = france.2 } }
+		}
+	}
+	
+	option = {
+		name = france.3.b
+		ai_chance = { factor = 0 }
+		add_political_power = -25
+	}
+	
+}

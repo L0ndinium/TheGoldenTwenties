@@ -1,0 +1,30 @@
+generic_decision_category_league = {
+	
+	#Leave the League of Nations
+	generic_decision_leave_lon = {
+		
+		icon = generic_political_discourse
+		
+		available = {
+			NOT = { TAG = FRA }
+		}
+		
+		visible = {
+			has_idea = generic_idea_lon_member
+		}
+		
+		fire_only_once = no
+		
+		cost = 25
+		
+		complete_effect = {
+			remove_ideas = generic_idea_lon_member
+		}
+		
+		ai_will_do = {
+			base = 0 
+		}
+		
+	}
+	
+}
