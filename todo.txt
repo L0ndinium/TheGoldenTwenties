@@ -12,3 +12,4 @@ Add more victory points
 Add a demilitarization system so nations don't stay at "War Economy" for 20 years
 Make the League of Nations do something (Pass Resolutions, Intervene in Conflicts...)
 Add a dynamic system to (re)join the League of Nations
+Add a way for Germany to join the League

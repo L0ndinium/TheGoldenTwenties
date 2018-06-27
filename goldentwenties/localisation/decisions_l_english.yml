@@ -25,3 +25,5 @@
  generic_decision_category_league:0 "League of Nations"
  generic_decision_leave_lon:0 "Leave the League of Nations"
  generic_decision_leave_lon_desc:0 "We do not see a benefit for our nation from the League of Nations in any way anymore. We must leave this useless association."
+ generic_decision_join_lon:0 "Join the League of Nations"
+ generic_decision_join_lon_desc:0 "We now have the possibility to join the League of Nations - our country may benefit from taking part in this international organization."
